@@ -20,3 +20,7 @@ This project contains the data and presentation for [use of force](Http://TODO:A
     
       python -m SimpleHTTPServer
 - In the browser navigate to [http://localhost:8000](http://localhost:8000)
+
+## Assumptions
+- POSIX environment
+- Mysql server running with a username same as the shell username
