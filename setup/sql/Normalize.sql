@@ -153,6 +153,10 @@ FROM
   rawsubjects
 where `Subject last name` <> 'NA' or `First name` <> 'NA';
 
+-- Remove no subjects
+DELETE FROM subjects
+Where lastName like '%no%subject%';
+
 INSERT INTO incidentSubjectMap
 (
   incidentId,
