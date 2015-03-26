@@ -43,7 +43,7 @@ BEGIN
   `Discipline?`,
   `Rank`,
   `Off-duty?`
-  FROM rawsubjects WHERE `Officer last name` like '%unknown%';
+  FROM rawofficers WHERE `Officer last name` like '%unknown%';
   
   DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
 
