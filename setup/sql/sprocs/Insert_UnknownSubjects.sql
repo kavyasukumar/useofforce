@@ -4,7 +4,6 @@ DELIMITER $$
 CREATE PROCEDURE Insert_UnknownSubjects()
 BEGIN
   DECLARE done INT DEFAULT FALSE;
-  DECLARE a CHAR(16);
   DECLARE C_IncidentId,
     C_lastName,
     C_firstName,
