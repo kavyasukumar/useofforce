@@ -157,6 +157,11 @@ where `Subject last name` <> 'NA' or `First name` <> 'NA';
 DELETE FROM subjects
 Where lastName like '%no%subject%';
 
+-- Remove Unknown subjects. this will be added later
+DELETE FROM subjects
+Where lastName like '%unknown%';
+
+
 INSERT INTO incidentSubjectMap
 (
   incidentId,
@@ -218,6 +223,18 @@ INNER JOIN subjects S ON
 R.`Subject last name` = S.lastName
 AND (((R.`First name` ='' OR R.`First name` is null) AND S.firstName is null) OR R.`First name` = S.firstName)
 AND (((R.DOB = '' OR R.DOB is null) AND S.dob is null) OR str_to_date(R.dob,'%m/%d/%Y') = S.dob);
+
+-- Call function to insert all unknown subjects
+CALL Insert_UnknownSubjects();
+
+-- Clean up Unknowns
+UPDATE subjects
+SET lastname = 'Unknown'
+WHERE lastname like '%unknown%';
+
+UPDATE subjects
+SET firstname = 'Unknown'
+WHERE firstname like '%unknown%';
 
 
 INSERT INTO officers

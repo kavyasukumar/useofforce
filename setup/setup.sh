@@ -10,6 +10,13 @@ mysql -p$password -e "CREATE DATABASE policeshootings"
 # Create table structure
 mysql -p$password policeshootings < ./sql/createtables.sql
 
+# import all stored procedures
+for FILE in `ls ./sql/sprocs/*.sql`
+do
+	echo $FILE
+	mysql -p$password policeshootings < $FILE
+done
+
 # import raw data into tables
 filepath=$(pwd)'/data'
 
@@ -32,9 +39,3 @@ mysql -p$password policeshootings -e "LOAD DATA INFILE '$filepath/rawofficers.cs
 # normalize data into separate tables
 mysql -p$password policeshootings < ./sql/normalize.sql
 
-# import all stored procedures
-for FILE in `ls ./sql/sprocs/*.sql`
-do
-	echo $FILE
-	mysql -p$password policeshootings < $FILE
-done
