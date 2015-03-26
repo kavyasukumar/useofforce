@@ -263,9 +263,13 @@ Gender,
 Ethnicity,
 `FDLE ID number`;
 
+-- Deal with unknown officers
+DELETE FROM officers
+Where lastName like '%unknown%';
+
 INSERT INTO officerIncidentMap
 (
-  incidentId,
+   incidentId,
    officerId,
    agency,
    agencyId,
@@ -301,3 +305,15 @@ AND (((R.dob ='' OR R.dob is null) AND O.dob is null) OR str_to_date(R.dob,'%m/%
 AND (((R.Gender = '' OR R.gender is null) AND O.Gender is null) OR R.Gender=O.gender)
 AND (((R.Ethnicity = '' OR R.Ethnicity is null) AND O.Ethnicity is null) OR R.Ethnicity=O.ethnicity)
 AND (((R.`FDLE ID number` = '' OR R.`FDLE ID number` is null) AND O.FDLEID is null) OR R.`FDLE ID number`=O.FDLEID);
+
+-- Call function to handle unknowns
+CALL Insert_UnknownOfficers();
+
+-- Cleanup unknowns
+UPDATE officers
+SET lastname = 'Unknown'
+WHERE lastname like '%unknown%';
+
+UPDATE officers
+SET firstname = 'Unknown'
+WHERE firstname like '%unknown%';
