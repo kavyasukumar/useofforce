@@ -1,0 +1,32 @@
+#cover{
+  background-color:#F6F1ED;
+  background-image: url('../images/splatter.png');
+  width: 100%;
+  height: 60vh;
+  background-size: contain;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+#cover h1, #cover p{
+  max-width: 35%;
+  margin: auto;
+  top: 30%;
+  position: relative;
+  text-align: center;
+}
+#cover h1{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /*background-image: url('../images/splatter.png');*/
+  background-position: -15px 0;
+  background-repeat: no-repeat;
+  background-size: contain;	
+  /*border: 1px solid black;*/
+  padding: 1em;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.header, .navbar{
+	margin-bottom: 0;
+}
