@@ -1,0 +1,13 @@
+<div id="filterarea" class="container">
+<select>
+	<option ng-repeat="gender in ranges.gender">{{gender}}</option>
+</select>
+<select>
+	<option ng-repeat="race in ranges.ethnicity">{{race}}</option>
+</select>
+</div>
+<div id="iconarea">
+	<span ng-repeat='subject in subjects.data'>
+		<img src="/images/{{subject.gender}}.png" class="pplicon"/>
+	</span>
+</div>
