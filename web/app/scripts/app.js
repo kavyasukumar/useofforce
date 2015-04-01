@@ -27,7 +27,44 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/subjects', {
+        templateUrl: 'views/subjects.html',
+        controller: 'SubjectsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
+  })
+   .factory('subjects', function ($http) {
+     var dataset = { data:null};
+     var currentSubject ={data: null}
+     var propRanges = {}
+     var currentId = 0;
+     var dataService = {};
+     
+     $http.get("data/subjects.json").success(function (data, status, headers, config) {
+        dataset.data = data;
+        currentSubject.data = data[currentId];
+
+        for (var prop in dataset.data[0]) {
+          if(dataset.data[0].hasOwnProperty(prop)){
+              propRanges[prop] = _.uniq(_.pluck(dataset.data, prop));
+          }
+        }
+     });
+     dataService.getList = function () {
+         return dataset;
+     }
+     dataService.getDetails = function(id){
+        currentId = id;
+        if(dataset.data){            
+            currentSubject.data = $.grep(dataset.data,function(a){ return a.id == id;});
+            if(currentSubject.data)
+            {
+                currentSubject.data=currentSubject.data[0];
+            }
+        }
+        return currentSubject.data;
+     }
+    return dataService;
   });
