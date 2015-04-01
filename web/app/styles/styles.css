@@ -30,3 +30,14 @@
 .header, .navbar{
 	margin-bottom: 0;
 }
+
+.pplicon{
+  width:30px;
+  height:auto;
+  margin-bottom:10px;
+}
+
+#iconarea{
+  margin: auto;
+  padding-right: 5px;
+}
