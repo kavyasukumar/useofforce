@@ -48,23 +48,32 @@ angular
 
         for (var prop in dataset.data[0]) {
           if(dataset.data[0].hasOwnProperty(prop)){
-              propRanges[prop] = _.uniq(_.pluck(dataset.data, prop));
+              propRanges[prop] = _.chain(dataset.data)
+                        .pluck(prop)
+                        .uniq()
+                        .without("")
+                        .union(["-All-"])
+                        .value()
+                        .sort();
           }
         }
      });
      dataService.getList = function () {
          return dataset;
      }
-     dataService.getDetails = function(id){
-        currentId = id;
-        if(dataset.data){            
-            currentSubject.data = $.grep(dataset.data,function(a){ return a.id == id;});
-            if(currentSubject.data)
-            {
-                currentSubject.data=currentSubject.data[0];
-            }
-        }
-        return currentSubject.data;
+     dataService.getRanges = function() {
+        return propRanges;
      }
+     // dataService.getDetails = function(id){
+     //    currentId = id;
+     //    if(dataset.data){            
+     //        currentSubject.data = $.grep(dataset.data,function(a){ return a.id == id;});
+     //        if(currentSubject.data)
+     //        {
+     //            currentSubject.data=currentSubject.data[0];
+     //        }
+     //    }
+     //    return currentSubject.data;
+     // }
     return dataService;
   });
