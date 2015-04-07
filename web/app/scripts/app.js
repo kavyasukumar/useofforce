@@ -75,6 +75,9 @@ angular
      dataService.filterList = function(selections){
       //testing logic
       resetFilters();
+      if(selections.gender=="-All-"){
+        return;
+      }
       for(var i=0;i< dataset.data.length;i++){
         if(dataset.data[i].gender!=selections.gender){
           dataset.data[i].filterPass=false;
