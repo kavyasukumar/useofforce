@@ -19,5 +19,7 @@ angular.module('webApp')
 
     $scope.update = function(){
     	console.log($scope.selections.gender + $scope.selections.ethnicity);
+
+    	subjects.filterList($scope.selections);
     }
   });

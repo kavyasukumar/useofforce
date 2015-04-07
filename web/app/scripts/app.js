@@ -46,6 +46,8 @@ angular
         dataset.data = data;
         currentSubject.data = data[currentId];
 
+        resetFilters();
+
         for (var prop in dataset.data[0]) {
           if(dataset.data[0].hasOwnProperty(prop)){
               propRanges[prop] = _.chain(dataset.data)
@@ -58,11 +60,26 @@ angular
           }
         }
      });
+     var resetFilters = function(){
+      //temp hack till subjects json is updated
+        for(var i=0;i< dataset.data.length;i++){
+          dataset.data[i].filterPass=true;
+        }
+     }
      dataService.getList = function () {
          return dataset;
      }
      dataService.getRanges = function() {
         return propRanges;
+     }
+     dataService.filterList = function(selections){
+      //testing logic
+      resetFilters();
+      for(var i=0;i< dataset.data.length;i++){
+        if(dataset.data[i].gender!=selections.gender){
+          dataset.data[i].filterPass=false;
+        }
+      }
      }
      // dataService.getDetails = function(id){
      //    currentId = id;

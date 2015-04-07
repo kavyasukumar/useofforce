@@ -7,6 +7,6 @@
 </div>
 <div id="iconarea">
 	<span ng-repeat='subject in subjects.data'>
-		<img src="/images/{{subject.gender}}.png" class="pplicon"/>
+		<img src="/images/{{subject.gender}}.png" class="pplicon" ng-class="{'faded':!subject.filterPass}"/>
 	</span>
 </div>

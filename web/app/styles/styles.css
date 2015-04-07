@@ -41,3 +41,6 @@
   margin: auto;
   padding-right: 5px;
 }
+.faded{
+  opacity: .3;
+}
