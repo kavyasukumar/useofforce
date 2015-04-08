@@ -17,14 +17,9 @@ angular.module('webApp')
     var defaultval = "-All-";
     $scope.selections.gender=defaultval;
     $scope.selections.ethnicity = defaultval;
+    $scope.selections.injuryLevel = defaultval;
 
     $scope.update = function(){
-    	console.log($scope.selections.gender + $scope.selections.ethnicity);
-
-    	subjects.filterList($scope.selections);
-    }
-
-    $scope.filterByGender = function(){
-        subjects.filterList('gender', $scope.selections);
+        subjects.filterList($scope.selections);
     }
   });

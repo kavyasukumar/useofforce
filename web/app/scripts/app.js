@@ -37,23 +37,16 @@ angular
   })
    .factory('subjects', function ($http) {
      var dataset = { data:null};
-     var originaldataset;
      var currentSubject ={data: null}
      var propRanges = {}
      var currentId = 0;
      var dataService = {};
+     var defaultRangeVal ='-All-';
      
      $http.get("data/subjects.json").success(function (data, status, headers, config) {
+      
         dataset.data = data;
-        currentSubject.data = data[currentId];
-
-        
-      //temp hack till subjects json is updated
-        for(var i=0;i< dataset.data.length;i++){
-          dataset.data[i].filterPass=true;
-        }
-
-        originaldataset=dataset.data;
+        resetFilters();
 
         for (var prop in dataset.data[0]) {
           if(dataset.data[0].hasOwnProperty(prop)){
@@ -68,8 +61,13 @@ angular
         }
      });
      var resetFilters = function(){
-        dataset.data=originaldataset;
+        //temp hack till subjects json is updated
+        for(var i=0;i< dataset.data.length;i++){
+          dataset.data[i].filterPass=true;
+        }
+        dataset.data = _.sortBy(dataset.data,function(d){ return d.date;})
      }
+
      dataService.getList = function () {
          return dataset;
      }
@@ -77,33 +75,32 @@ angular
         return propRanges;
      }
      dataService.filterList = function(criteria){
-        // for (var prop in criteria) {
-        //   if(criteria.hasOwnProperty(prop)&&criteria[prop]=="-All-"){
-        //     delete criteria[prop];
-        //   }
-        // }
-        dataset.data = _.where(originaldataset,criteria);
-        //testing logic
-        // resetFilters();
-        // if(selections.gender=="-All-"){
-        //   return;
-        // }
-        // for(var i=0;i< dataset.data.length;i++){
-        //   if(dataset.data[i].gender!=selections.gender){
-        //     dataset.data[i].filterPass=false;
-        //   }
-        // }
+      //ethnicity
+      //gender
+      //age
+      //injury level
+      //weapons
+      //shot at police
+      //agency
+      //city
+      resetFilters();
+      for(var i=0;i<dataset.data.length;i++){
+        var pass = true;
+        var d = dataset.data[i];
+        if(criteria.gender!=defaultRangeVal && d.gender!=criteria.gender){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
+        if(criteria.ethnicity!=defaultRangeVal && d.ethnicity!=criteria.ethnicity){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
+        if(criteria.injuryLevel!=defaultRangeVal && d.injuryLevel!=criteria.injuryLevel){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
+      }
+      dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
      }
-     // dataService.getDetails = function(id){
-     //    currentId = id;
-     //    if(dataset.data){            
-     //        currentSubject.data = $.grep(dataset.data,function(a){ return a.id == id;});
-     //        if(currentSubject.data)
-     //        {
-     //            currentSubject.data=currentSubject.data[0];
-     //        }
-     //    }
-     //    return currentSubject.data;
-     // }
     return dataService;
   });

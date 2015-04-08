@@ -1,9 +1,10 @@
 <div id="filterarea" class="container">
-<!-- <select>
-	<option ng-repeat="gender in ranges.gender">{{gender}}</option>
-</select> -->
-<select ng-model='selections.gender' ng-options="x as x for x in ranges.gender" ng-change="update()"></select>
-<select ng-model='selections.ethnicity' ng-options="x as x for x in ranges.ethnicity"></select>
+<select ng-model='selections.gender' ng-options="x as x for x in ranges.gender track by x" ng-change="update()">
+</select>
+<select ng-model='selections.ethnicity' ng-options="x as x for x in ranges.ethnicity track by x" ng-change="update()">
+</select>
+<select ng-model='selections.injuryLevel' ng-options="x as x for x in ranges.injuryLevel track by x" ng-change="update()">
+</select>
 </div>
 <div id="iconarea">
 	<span ng-repeat='subject in subjects.data'>
