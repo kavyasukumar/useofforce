@@ -37,6 +37,7 @@ angular
   })
    .factory('subjects', function ($http) {
      var dataset = { data:null};
+     var originaldataset;
      var currentSubject ={data: null}
      var propRanges = {}
      var currentId = 0;
@@ -46,7 +47,13 @@ angular
         dataset.data = data;
         currentSubject.data = data[currentId];
 
-        resetFilters();
+        
+      //temp hack till subjects json is updated
+        for(var i=0;i< dataset.data.length;i++){
+          dataset.data[i].filterPass=true;
+        }
+
+        originaldataset=dataset.data;
 
         for (var prop in dataset.data[0]) {
           if(dataset.data[0].hasOwnProperty(prop)){
@@ -61,10 +68,7 @@ angular
         }
      });
      var resetFilters = function(){
-      //temp hack till subjects json is updated
-        for(var i=0;i< dataset.data.length;i++){
-          dataset.data[i].filterPass=true;
-        }
+        dataset.data=originaldataset;
      }
      dataService.getList = function () {
          return dataset;
@@ -72,17 +76,23 @@ angular
      dataService.getRanges = function() {
         return propRanges;
      }
-     dataService.filterList = function(selections){
-      //testing logic
-      resetFilters();
-      if(selections.gender=="-All-"){
-        return;
-      }
-      for(var i=0;i< dataset.data.length;i++){
-        if(dataset.data[i].gender!=selections.gender){
-          dataset.data[i].filterPass=false;
-        }
-      }
+     dataService.filterList = function(criteria){
+        // for (var prop in criteria) {
+        //   if(criteria.hasOwnProperty(prop)&&criteria[prop]=="-All-"){
+        //     delete criteria[prop];
+        //   }
+        // }
+        dataset.data = _.where(originaldataset,criteria);
+        //testing logic
+        // resetFilters();
+        // if(selections.gender=="-All-"){
+        //   return;
+        // }
+        // for(var i=0;i< dataset.data.length;i++){
+        //   if(dataset.data[i].gender!=selections.gender){
+        //     dataset.data[i].filterPass=false;
+        //   }
+        // }
      }
      // dataService.getDetails = function(id){
      //    currentId = id;

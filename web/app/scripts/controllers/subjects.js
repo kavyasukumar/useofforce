@@ -14,12 +14,17 @@ angular.module('webApp')
     $scope.ranges = subjects.getRanges();
 
     $scope.selections={};
-    $scope.selections.gender="-All-";
-    $scope.selections.ethnicity = 'Asian';
+    var defaultval = "-All-";
+    $scope.selections.gender=defaultval;
+    $scope.selections.ethnicity = defaultval;
 
     $scope.update = function(){
     	console.log($scope.selections.gender + $scope.selections.ethnicity);
 
     	subjects.filterList($scope.selections);
+    }
+
+    $scope.filterByGender = function(){
+        subjects.filterList('gender', $scope.selections);
     }
   });
