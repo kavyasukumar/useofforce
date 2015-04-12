@@ -57,6 +57,16 @@ angular
                         .union(["-All-"])
                         .value()
                         .sort();
+
+              // change range for year of incident
+              propRanges['year'] = _.chain(dataset.data)
+                        .pluck('date')
+                        .map(function (date, index){ return new Date(date).getFullYear();})
+                        .uniq()
+                        .without("")
+                        .union(["-All-"])
+                        .value()
+                        .sort();
           }
         }
      });
@@ -65,7 +75,7 @@ angular
         for(var i=0;i< dataset.data.length;i++){
           dataset.data[i].filterPass=true;
         }
-        dataset.data = _.sortBy(dataset.data,function(d){ return d.date;})
+        dataset.data = _.sortBy(dataset.data,function(d){ return new Date(d.date);}).reverse();
      }
 
      dataService.getList = function () {
@@ -104,6 +114,10 @@ angular
           continue;
         }
         if(criteria.weapons!=defaultRangeVal && d.weapons!=criteria.weapons){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
+        if(criteria.year!=defaultRangeVal && new Date(d.date).getFullYear()!=criteria.year){
           dataset.data[i].filterPass = false;
           continue;
         }
