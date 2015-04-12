@@ -7,6 +7,8 @@
 </select>
 <select ng-model='selections.shotAtPolice' ng-options="x as x for x in ranges.shotAtPolice track by x" ng-change="update()">
 </select>
+<select ng-model='selections.weapons' ng-options="x as x for x in ranges.weapons track by x" ng-change="update()">
+</select>
 </div>
 <div id="iconarea">
 	<span class="iconholder" ng-repeat='subject in subjects.data'>

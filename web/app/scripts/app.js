@@ -103,6 +103,10 @@ angular
           dataset.data[i].filterPass = false;
           continue;
         }
+        if(criteria.weapons!=defaultRangeVal && d.weapons!=criteria.weapons){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
       }
       //dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
      }
