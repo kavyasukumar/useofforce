@@ -99,8 +99,12 @@ angular
           dataset.data[i].filterPass = false;
           continue;
         }
+        if(criteria.shotAtPolice!=defaultRangeVal && d.shotAtPolice!=criteria.shotAtPolice){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
       }
-      dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
+      //dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
      }
     return dataService;
   });
