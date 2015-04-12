@@ -38,10 +38,27 @@ angular
    .factory('subjects', function ($http) {
      var dataset = { data:null};
      var currentSubject ={data: null}
-     var propRanges = {}
+     var propRanges = {'ageRange':['-All-','Under 18','18-30','31-60','Over 60']}
+     var ageBrackets = {
+      'Under 18':[0,17],
+      '18-30':[18,30],
+      '31-60':[31,60],
+      'Over 60':[61,1000]
+    };
      var currentId = 0;
      var dataService = {};
      var defaultRangeVal ='-All-';
+
+     function getAge(data){
+        var incidentDate = new Date(data.date);
+        var birthDate = new Date(data.dob);
+        var age = incidentDate.getFullYear() - birthDate.getFullYear();
+        var m = incidentDate.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && incidentDate.getDate() < birthDate.getDate())) {
+          age--;
+        }
+        return age;
+     }
      
      $http.get("data/subjects.json").success(function (data, status, headers, config) {
       
@@ -121,8 +138,16 @@ angular
           dataset.data[i].filterPass = false;
           continue;
         }
+        // if(criteria.ageRange!=defaultRangeVal && 
+        //       (getAge(d) < ageBrackets[criteria.ageRange][0] || getAge(d) > ageBrackets[criteria.ageRange][1])
+        //   ){
+        //   dataset.data[i].filterPass = false;
+        //   continue;
+        // }
       }
       //dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
      }
     return dataService;
   });
+
+
