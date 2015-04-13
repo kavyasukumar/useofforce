@@ -4,6 +4,7 @@ CREATE TABLE `rawincidents` (
   `Incident ID` varchar(255) NOT NULL,
   `Police case number` varchar(255) DEFAULT NULL,
   `Summary of incident` text,
+  `headlines` text,
   `Date` varchar(255) DEFAULT NULL,
   `Time` varchar(255) DEFAULT NULL,
   `Location` varchar(255) DEFAULT NULL,
@@ -89,6 +90,7 @@ DROP TABLE IF EXISTS incidents;
 CREATE TABLE incidents (
   id varchar(255) PRIMARY KEY,
   caseNum varchar(255) DEFAULT NULL,
+  hed text,
   summary text,
   date date DEFAULT NULL,
   location varchar(255) DEFAULT NULL,  

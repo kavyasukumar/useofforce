@@ -11,6 +11,7 @@ INSERT INTO incidents
 (
   id,
   caseNum,
+  hed,
   summary,
   date,
   location,  
@@ -42,6 +43,7 @@ INSERT INTO incidents
 SELECT
   `Incident ID`,
   `Police case number`,
+  `headlines`,
   `Summary of incident`,
   str_to_date(date,'%m/%d/%Y'),
   Location,
