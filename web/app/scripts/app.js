@@ -48,6 +48,7 @@ angular
      var currentId = 0;
      var dataService = {};
      var defaultRangeVal ='-All-';
+     var currentCriteria;
 
      function getAge(data){
         var incidentDate = new Date(data.date);
@@ -86,6 +87,7 @@ angular
                         .sort();
           }
         }
+        _filterList(currentCriteria);
      });
      var resetFilters = function(){
         //temp hack till subjects json is updated
@@ -93,6 +95,10 @@ angular
           dataset.data[i].filterPass=true;
         }
         dataset.data = _.sortBy(dataset.data,function(d){ return new Date(d.date);}).reverse();
+     }
+
+     dataService.setCriteria = function(criteria){
+        currentCriteria = criteria;
      }
 
      dataService.getList = function () {
@@ -147,6 +153,7 @@ angular
       }
       //dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
      }
+     var _filterList = dataService.filterList;
     return dataService;
   });
 
