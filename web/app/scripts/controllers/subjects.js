@@ -4,7 +4,7 @@
  * @ngdoc function
  * @name webApp.controller:SubjectscontrollerCtrl
  * @description
- * # SubjectscontrollerCtrl
+ * # SubjectsCtrl
  * Controller of the webApp
  */
 angular.module('webApp')
@@ -32,15 +32,12 @@ angular.module('webApp')
           if($scope.selections.hasOwnProperty(prop) && $scope.selections[prop]!=defaultval){
                 culledList[prop]= $scope.selections[prop];
           }
-      }
-      return culledList;
-  }
+        }
+        return culledList;
+    }
 
     $scope.update = function(){
         $location.search(getNonDefaultSelections());
         subjects.filterList($scope.selections);
     }
-
-
-    //$scope.update();
   });
