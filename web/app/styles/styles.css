@@ -56,3 +56,23 @@
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;*/
 }
+#statusbar{
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  background-color:#ddd;
+  position: relative;
+}
+#innerbar{
+  background-color: coral;
+  height: 30px;
+  display: inline-block;
+}
+#statusbar p{
+  position: absolute;
+  right: 10px;
+  top: 0;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 100;
+}

@@ -36,7 +36,7 @@ angular
       });
   })
    .factory('subjects', function ($http) {
-     var dataset = { data:null};
+     var dataset = { data:null, filteredLength: 0};
      var currentSubject ={data: null}
      var propRanges = {'ageRange':['-All-','Under 18','18-30','31-60','Over 60']}
      var ageBrackets = {
@@ -94,7 +94,7 @@ angular
         for(var i=0;i< dataset.data.length;i++){
           dataset.data[i].filterPass=true;
         }
-        dataset.data = _.sortBy(dataset.data,function(d){ return new Date(d.date);}).reverse();
+        dataset.data = _.sortBy(dataset.data,function(d){ return d.sortorder;});
      }
 
      dataService.setCriteria = function(criteria){
@@ -108,14 +108,6 @@ angular
         return propRanges;
      }
      dataService.filterList = function(criteria){
-      //ethnicity
-      //gender
-      //age
-      //injury level
-      //weapons
-      //shot at police
-      //agency
-      //city
       resetFilters();
       for(var i=0;i<dataset.data.length;i++){
         var pass = true;
@@ -144,6 +136,14 @@ angular
           dataset.data[i].filterPass = false;
           continue;
         }
+        if(criteria.agencies!=defaultRangeVal && d.agencies!=criteria.agencies){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
+        if(criteria.incidentCity!=defaultRangeVal && d.incidentCity!=criteria.incidentCity){
+          dataset.data[i].filterPass = false;
+          continue;
+        }
         // if(criteria.ageRange!=defaultRangeVal && 
         //       (getAge(d) < ageBrackets[criteria.ageRange][0] || getAge(d) > ageBrackets[criteria.ageRange][1])
         //   ){
@@ -151,6 +151,7 @@ angular
         //   continue;
         // }
       }
+      dataset.data.filteredLength = _.where(dataset.data,{filterPass:true}).length;
       //dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
      }
      var _filterList = dataService.filterList;

@@ -21,7 +21,8 @@ angular.module('webApp')
     $scope.selections.shotAtPolice = defaultval;
     $scope.selections.weapons = defaultval;
     $scope.selections.year = defaultval;
-    $scope.selections.agerange = defaultval;
+    $scope.selections.agencies = defaultval;
+    $scope.selections.incidentCity = defaultval;
     $scope.selections = _.extend($scope.selections,$location.search());
 
     subjects.setCriteria($scope.selections);

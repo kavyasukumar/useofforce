@@ -11,9 +11,17 @@
 </select>
 <select ng-model='selections.year' ng-options="x as x for x in ranges.year track by x" ng-change="update()">
 </select>
+<select ng-model='selections.agencies' ng-options="x as x for x in ranges.agencies track by x" ng-change="update()">
+</select>
+<select ng-model='selections.incidentCity' ng-options="x as x for x in ranges.incidentCity track by x" ng-change="update()">
+</select>
 </div>
 <div id="iconarea">
 	<span class="iconholder" ng-repeat='subject in subjects.data'>
 		<img src="/images/{{subject.gender}}.png" class="pplicon" ng-class="{'faded':!subject.filterPass}"/>
 	</span>
+</div>
+<div id="statusbar">
+	<div id="innerbar" style="width:{{100*subjects.data.filteredLength/subjects.data.length}}%"></div>
+	<p>{{subjects.data.filteredLength}} / {{subjects.data.length}}</p>
 </div>
