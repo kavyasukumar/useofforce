@@ -25,3 +25,9 @@
 	<div id="innerbar" style="width:{{100*subjects.data.filteredLength/subjects.data.length}}%"></div>
 	<p>{{subjects.data.filteredLength}} / {{subjects.data.length}}</p>
 </div>
+<div id="stories">
+	<div ng-repeat="incident in incidents.filtereddata">
+		<h1>{{incident.hed}}</h1>
+		<p>{{incident.summary}}</p>
+	</div>
+</div>

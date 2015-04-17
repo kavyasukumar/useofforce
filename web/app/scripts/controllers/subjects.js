@@ -8,8 +8,9 @@
  * Controller of the webApp
  */
 angular.module('webApp')
-  .controller('SubjectsCtrl', function ($scope, $location, subjects) {
+  .controller('SubjectsCtrl', function ($scope, $location, subjects, incidents) {
     $scope.subjects = subjects.getList();
+    $scope.incidents = incidents.getList();
 
     $scope.ranges = subjects.getRanges();
 
@@ -40,5 +41,6 @@ angular.module('webApp')
     $scope.update = function(){
         $location.search(getNonDefaultSelections());
         subjects.filterList($scope.selections);
+        incidents.filterList(_.where($scope.subjects.data,{'filterPass':true}));
     }
   });

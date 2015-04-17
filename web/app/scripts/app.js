@@ -35,6 +35,34 @@ angular
         redirectTo: '/'
       });
   })
+   .factory('incidents', function ($http){
+    var dataset ={data:null, filtereddata:null};
+    var dataService ={};
+    var subjectIds = null;
+
+    $http.get("data/incidents.json").success(function (data, status, headers, config) {
+      dataset.data = data;
+      dataService.getList(subjectIds);
+    });
+
+    dataService.getList =function(){
+      return dataset;
+    }
+    dataService.filterList = function (filteredSubjects) {
+        subjectIds = filteredSubjects;
+        if(!filteredSubjects){
+          dataset.filtereddata = _.clone(dataset.data);
+          return;
+        }
+        var ids = _.pluck(filteredSubjects,"incidentId");
+        var idlist = {};
+        _.each(ids, function(id){ idlist[id] = true; })
+        dataset.filtereddata = _.filter(dataset.data, function(d){ return idlist[d.id]; });
+        return;
+    }
+
+    return dataService;
+   })
    .factory('subjects', function ($http) {
      var dataset = { data:null, filteredLength: 0};
      var currentSubject ={data: null}
