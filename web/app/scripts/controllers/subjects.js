@@ -28,6 +28,14 @@ angular.module('webApp')
 
     subjects.setCriteria($scope.selections);
 
+
+    $scope.update = function(){
+        $location.search(getNonDefaultSelections());
+        subjects.filterList($scope.selections);
+        incidents.filterList(_.where($scope.subjects.data,{'filterPass':true}));
+    }
+
+    
     function getNonDefaultSelections(){
         var culledList = {};
         for (var prop in $scope.selections) {
@@ -36,11 +44,5 @@ angular.module('webApp')
           }
         }
         return culledList;
-    }
-
-    $scope.update = function(){
-        $location.search(getNonDefaultSelections());
-        subjects.filterList($scope.selections);
-        incidents.filterList(_.where($scope.subjects.data,{'filterPass':true}));
     }
   });

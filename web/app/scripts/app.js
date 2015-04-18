@@ -35,6 +35,15 @@ angular
         redirectTo: '/'
       });
   })
+  .directive('errHide', function() {
+    return {
+      link: function(scope, element, attrs) {
+        element.bind('error', function() {
+          $(this).addClass('hide', true);
+        });
+      }
+    }
+  })
    .factory('incidents', function ($http){
     var dataset ={data:null, filtereddata:null};
     var dataService ={};
@@ -42,7 +51,7 @@ angular
 
     $http.get("data/incidents.json").success(function (data, status, headers, config) {
       dataset.data = data;
-      dataService.getList(subjectIds);
+      dataService.filterList(subjectIds);
     });
 
     dataService.getList =function(){
@@ -63,7 +72,7 @@ angular
 
     return dataService;
    })
-   .factory('subjects', function ($http) {
+   .factory('subjects', function ($http, incidents) {
      var dataset = { data:null, filteredLength: 0};
      var currentSubject ={data: null}
      var propRanges = {'ageRange':['-All-','Under 18','18-30','31-60','Over 60']}
@@ -180,6 +189,7 @@ angular
         // }
       }
       dataset.data.filteredLength = _.where(dataset.data,{filterPass:true}).length;
+      incidents.filterList(_.where(dataset.data,{filterPass:true}));
       //dataset.data = _.sortBy(dataset.data,function(d){ return !d.filterPass;})
      }
      var _filterList = dataService.filterList;

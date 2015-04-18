@@ -1,3 +1,6 @@
+.hide {
+  display: none;
+}
 #cover{
   background-color:#F6F1ED;
   background-image: url('../images/splatter.png');
