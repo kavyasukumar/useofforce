@@ -3,12 +3,13 @@
 }
 #cover{
   background-color:#F6F1ED;
-  background-image: url('../images/splatter.png');
+  background-image: url('../images/Lineoffirelogo.png');
   width: 100%;
   height: 80vh;
   background-size: contain;
-  background-position: 0% 50%;
+  background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 3%;
 }
 
 #cover h1, #cover p{
@@ -32,6 +33,12 @@
 
 .header, .navbar{
 	margin-bottom: 0;
+}
+
+#byline{
+  text-transform: uppercase;
+  margin-bottom: 3%;
+
 }
 
 .pplicon{
@@ -78,4 +85,62 @@
   line-height: 30px;
   font-style: italic;
   font-weight: 100;
+}
+.stories{
+  width:80%;
+}
+
+.story{
+  background-color: rgba(200,200,200,.15);
+  margin: 10px 0;
+  padding: 5px;
+  padding-left: 15px;
+  border: 1px solid white;
+}
+.story:hover{
+  border:1px solid coral;
+}
+.story *{
+  display: inline-block;
+}
+.story h2{
+  font-size: 1.3em;
+}
+.story img{
+  min-width: 60px;
+  width: 8%;
+  height: auto;
+  padding-right: 20px;
+}
+#credits{
+  list-style: none;
+  padding: 0;
+}
+#credits li{
+  display: inline;
+}
+#credits li:after{
+  content: ' |';
+}
+.sidebar{
+  width: 25%;
+  display: inline-block;
+  min-width: 300px;
+  margin-top: 110px;
+}
+.sidebar img{
+  margin: auto;
+  max-width: 200px;
+  display: block;
+}
+.mainbar{
+  display: inline-block;
+  vertical-align: top;
+}
+h1.storyhed{
+  line-height: 30px;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid coral;
 }

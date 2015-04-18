@@ -23,9 +23,9 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/incident/:incidentId', {
+        templateUrl: 'views/incident.html',
+        controller: 'IncidentsCtrl'
       })
       .when('/subjects', {
         templateUrl: 'views/subjects.html',
@@ -45,13 +45,15 @@ angular
     }
   })
    .factory('incidents', function ($http){
-    var dataset ={data:null, filtereddata:null};
+    var dataset ={data:null, filtereddata:null, currentIncident: null};
     var dataService ={};
     var subjectIds = null;
+    var currentId = null;
 
     $http.get("data/incidents.json").success(function (data, status, headers, config) {
       dataset.data = data;
       dataService.filterList(subjectIds);
+      dataService.getIncident(currentId);
     });
 
     dataService.getList =function(){
@@ -68,6 +70,17 @@ angular
         _.each(ids, function(id){ idlist[id] = true; })
         dataset.filtereddata = _.filter(dataset.data, function(d){ return idlist[d.id]; });
         return;
+    }
+
+    dataService.getIncident = function(id){
+        currentId = id;
+        if(dataset.data && currentId){
+          var list = _.where(dataset.data, {"id": id.toUpperCase()});
+          if(list){
+            dataset.currentIncident = list[0];
+          }
+        }
+        return dataset;
     }
 
     return dataService;

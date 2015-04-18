@@ -8,10 +8,7 @@
  * Controller of the webApp
  */
 angular.module('webApp')
-  .controller('IncidentsCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('IncidentsCtrl', function ($scope, $location, $routeParams, incidents) {
+  	var incidentId = $routeParams.incidentId;
+   	$scope.incident = incidents.getIncident(incidentId);
   });

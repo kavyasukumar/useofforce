@@ -1,0 +1,7 @@
+<section class="sidebar">
+	<img ng-repeat="img in incident.currentIncident.imgnames" ng-src='./images/subjects/{{img}}' err-hide="true">
+</section>
+<section class="container mainbar">
+	<h1 class="storyhed"> {{incident.currentIncident.hed}}</h1>
+	<p>{{incident.currentIncident.summary}}</p>
+</section>
