@@ -25,8 +25,8 @@
 	<div id="innerbar" style="width:{{100*subjects.data.filteredLength/subjects.data.length}}%"></div>
 	<p>{{subjects.data.filteredLength}} / {{subjects.data.length}}</p>
 </div>
-<div id="stories" class="container">
-	<div ng-repeat="incident in incidents.filtereddata">
+<div class="stories container-fluid">
+	<div class="story" ng-repeat="incident in incidents.filtereddata">
 		<img ng-repeat="img in incident.imgnames" ng-src='./images/subjects/{{img}}' err-hide="true">
 		<h2>{{incident.hed}}</h2>
 	</div>
