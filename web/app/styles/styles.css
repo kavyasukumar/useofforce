@@ -154,3 +154,18 @@ h1.storyhed{
   margin-bottom: 20px;
   border-bottom: 1px solid coral;
 }
+
+select {
+  margin: 10px;
+  color: cadetblue;
+  border:0;
+  text-align: center;
+}
+
+#filterarea{
+  margin-bottom: 40px;
+}
+
+#subjectfilters{
+  background-color: #F6F1ED;
+}
