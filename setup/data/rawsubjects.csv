@@ -1,253 +1,274 @@
-Timestamp,Incident ID,Subject last name,First name,Middle name or initial,DOB,Age,Gender,Ethnicity,Injury level,City of residence,Subject weapon(s),Did subject shoot at police?,Was subject behaving suicidal?,History of mental illness?,Arrest history?,Toxicology (D),Toxicology (S),Charges?,Crime charged with?,Crime disposition,Self-shooting?
-3/18/2015 12:35:43,LM168,Shatara,Khamis,,7/17/1993,,Male,White,Fatal,Delray Beach,,,,,Yes,,,,,,
-3/17/2015 20:15:36,LM167,Andrews,Telly,L.,11/8/1973,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,Yes,,,,"Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-3/17/2015 17:15:39,LM166,Hollis,Gerald,J.,8/15/1969,,Male,"Black, non-Hispanic/Latino",Fatal,,Knife or sword,,,,Yes,,,,,,
-3/17/2015 15:41:05,LM165,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/17/2015 15:29:49,LM164,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/17/2015 15:22:47,LM163,(unknown),(unknown),,,,,,,,,,,,,,,,,,
-3/17/2015 14:57:02,LM162,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/17/2015 14:47:16,LM161,Simon,Rashard,R.,6/2/1982,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Vehicle,,,,,,,,Aggravated assault/battery,Dropped,
-3/17/2015 13:49:40,LM160,(unknown),(unknown),,,,,,Unknown,,Vehicle,,,,,,,,,,
-3/17/2015 13:35:49,LM159,Magdaleno,Antonio,G.,2/12/1985,,Male,White,No injuries,,Vehicle,,,,,,,,Fleeing/eluding a police officer,,
-3/17/2015 11:25:57,LM158,(unknown),(unknown),,,,,,No injuries,,Vehicle,,,,,,,,,,
-3/16/2015 21:47:25,LM156,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 21:36:25,LM155,Ammon,Donald,,10/29/1956,,Male,,Injury,,,,,,,,,,,,Yes
-3/16/2015 21:22:42,LM154,Jordan,Tracy,C.,6/27/1970,,Female,"Black, non-Hispanic/Latino",Injury,West Palm Beach,UNARMED,,,,,,,,,,
-3/16/2015 21:05:26,LM153,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 20:59:49,LM152,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 20:51:31,LM151,Speranzella,Steven,,10/19/1950,,Male,White,Fatal,Boynton Beach,Handgun,,Yes,,,,,,Aggravated assault/battery,Dropped,
-3/16/2015 18:31:48,LM150,Santiago,Jerickson,V.,11/16/1981,,Male,Hispanic/Latino,No injuries,West Palm Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",,
-3/16/2015 17:53:34,LM149,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 17:28:28,LM148,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 17:21:25,LM147,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 17:11:45,LM146,Mastics,George,,,,Male,,,,,,,,,,,,,,Yes
-3/16/2015 17:05:04,LM145,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 16:46:53,LM144,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 16:36:55,LM143,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,
-3/16/2015 16:17:27,LM142,(no subject),(no subject),,,,,,,,,,,,,,,,,,
-3/16/2015 10:01:51,LM141,(unknown),(unknown),,,,Male,"Black, non-Hispanic/Latino",Unknown,,Handgun,Yes,,,,,,,,,
-3/16/2015 9:48:24,LM140,Burdett,Nicholas,,,24,Male,White,Fatal,"Needham, Massachusetts",Knife or sword,,,Yes,,"Alcohol, Prescription drugs",,,,,
-3/16/2015 9:25:41,LM139,(no subject),(no subject),,,,,,,,,,,,,,,,,,
-3/16/2015 9:13:53,LM138,Steward,Marcus,,,,Male,"Black, non-Hispanic/Latino",No injuries,Riviera Beach,Handgun,,,,,,,,,,
-3/16/2015 8:57:41,LM137,(unknown),(unknown),,,,Male,Hispanic/Latino,No injuries,,Vehicle,,,,,,,,,,
-3/16/2015 8:45:09,LM136,Rodriguez,Luis,Paul,,52,Male,Hispanic/Latino,No injuries,West Palm Beach,Handgun,,Yes,,,,,,,,
-3/16/2015 8:10:15,LM135,(unknown),(unknown),,,,Male,,Unknown,,Handgun,Yes,,,,,,,,,
-3/15/2015 13:18:59,LM134,(no subject),(no subject),,,,,,,,,,,,,,,,,,
-3/13/2015 17:40:51,LM133,(no subject),(no subject),(no subject),,,,,,,,,,,,,,,,,
-1/14/2015 17:57:25,LM132,Pollow,Matthew,Troy,3/23/1986,,Male,White,Fatal,Boca Raton,Screwdriver,,,Yes,Yes,,,,,,
-12/29/2014 14:13:49,LM131,Oser,Steven,,10/11/1962,,Male,White,No injuries,West Palm Beach,Hammer,,,,Yes,,,,,,
-12/23/2014 10:24:10,LM130,Beckham,Robin,,8/25/1978,,Male,"Black, non-Hispanic/Latino",Injury,Delray Beach,Fists,,,,Yes,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Convicted,
-12/18/2014 15:45:11,KL68,Hill,Gregory,Vaughn,,30,Male,"Black, non-Hispanic/Latino",Fatal,Fort Pierce,Handgun,,,,Yes,,,,,,
-12/12/2014 17:43:37,KL67,Mosley,Simon,P,10/9/1970,29,Male,"Black, non-Hispanic/Latino",Injury,Belle Glade,ATV,,,,,,,,"Attempted murder, Aggravated assault/battery",,
-12/12/2014 17:01:11,KL66,Cox,Ronald,J,7/29/1960,,Male,"Black, non-Hispanic/Latino",,Fort Pierce,Handgun,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-12/11/2014 17:43:51,KL65,Tompkins,Nathan,Ramon,,35,Male,,Fatal,Unknown,,,,,Yes,,,,,,
-12/11/2014 17:35:24,KL52,Castillo,Wilfredo,,6/20/1964,,Male,Hispanic/Latino,No injuries,West Palm Beach,UNARMED,,,,,,,,,,
-12/11/2014 16:38:47,KL64,Levy,Barrington,,2/1/1986,18,Male,"Black, non-Hispanic/Latino",Injury,Fort Pierce,Handgun,,,,,,,,"Attempted murder, Carjacking with a firearm, shooting a police dog",Convicted,
-12/9/2014 16:08:19,LM129,Holman,Gregory,L.,9/21/1976,,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Vehicle,,,,,,,,Attempted murder,Pleaded to lesser crime,
-12/9/2014 15:20:07,LM128,Palmer Jr.,Daniel,R.,8/8/1977,,Male,White,Fatal,Lake Worth,Handgun,,Yes,,Yes,,,,,,
-12/9/2014 14:44:11,LM127,Royal,Frederick,Jamal,5/10/1978,,Male,"Black, non-Hispanic/Latino",Injury,Belle Glade,Knife or sword,,,,Yes,,,,,,
-12/9/2014 12:30:00,LM126,Vosburgh,William,,,46,Male,,Fatal,Connecticut,UNARMED,,,,,,,,,,
-12/8/2014 19:33:55,LM125,Bell,Damon,,7/25/1980,,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,,,,,,,
-12/8/2014 18:38:22,LM124,Stevens,Paul,E.,2/13/1983,,Male,"Black, non-Hispanic/Latino",Injury,,UNARMED,,,,Yes,,,,,,
-12/8/2014 18:38:18,LM124,Brown,Ralph,A.,9/4/1981,,Male,"Black, non-Hispanic/Latino",Fatal,,Vehicle,,,,Yes,,,,,,
-12/8/2014 17:34:23,LM123,Miller,Jerrod,Tramine,,16,Male,"Black, non-Hispanic/Latino",Fatal,Delray Beach,Vehicle,,,,,,,,,,
-12/8/2014 15:44:46,LM122,Brooks,Donovan,,,40,Male,"Black, non-Hispanic/Latino",Fatal,,UNARMED,,,,,,,,,,
-12/8/2014 15:02:20,LM121,Barber II,Charles,B.,4/3/1968,,Male,White,Fatal,Jupiter,Handgun,,,,Yes,,,,,,
-12/5/2014 16:29:15,KL62,Bryant,Stephen,,,,Male,White,Fatal,Port St. Lucie,Knife or sword,,,,,,,,,,
-12/5/2014 15:46:26,KL61,Pablo,Francisco,,1/1/1990,,Male,Hispanic/Latino,No injuries,Indiantown,,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Convicted,
-12/5/2014 15:39:34,KL61,Pablo,Miguel,,5/29/1987,,Male,Hispanic/Latino,Fatal,Indiantown,,,,,,Alcohol,,,,,
-12/5/2014 15:21:22,KL60,Scales,Stacey,Lee,,32,Male,"Black, non-Hispanic/Latino",Fatal,Indiantown,Vehicle,,,,,Cocaine,,,,,
-12/4/2014 18:04:24,LM120,Maldonado,Salvadore,,10/27/1980,,Male,Hispanic/Latino,Injury,,Reached for or grabbed officer's weapon,,,,Yes,,,,Resisting a police officer w/violence,Convicted,
-12/4/2014 17:25:35,LM119,Carroll,Zachary,,,21,Male,White,Injury,Fort Lauderdale,UNARMED,,,,,,,,,,
-12/4/2014 17:20:56,KL59,Tuhey,Glenn,S,2/27/1974,,Male,White,Injury,Stuart,Vehicle,,,,,,,,"Fleeing/eluding a police officer, Robbery by sudden snatching, Tampering with physical evidence, Petit Theft, reckless driving, leaving scene of crash with injury",Convicted,
-12/4/2014 16:22:26,KL58,Perry,Raymond ,,3/12/1975,,Male,White,Injury,Plantation,Vehicle,,,,Yes,,,yes,Grand Theft Auto,Dropped,
-12/4/2014 16:21:22,KL58,Treman,Brian,,11/5/1975,,Male,White,Fatal,Pompano Beach,Vehicle,,,,Yes,,,,,,
-12/4/2014 16:15:12,LM118,Pineda,Jaime,,11/18/1986,,Male,White,Injury,Greenacres,Handgun,,,,,,Alcohol,,,,
-12/4/2014 15:29:55,LM117,Velasquez,Alfonzo,,5/1/1972,,Male,White,Injury,Lake Worth,Knife or sword,,,,,,,,,,
-12/4/2014 14:36:12,KL57,Vierow,Gary,James,,43,Male,,Fatal,Jensen Beach,,,,Yes,Yes,Marijuana,,,,,
-12/2/2014 18:46:45,LM116,Ariot,Marc,C.,12/14/1986,,Male,"Black, non-Hispanic/Latino",Fatal,Greenacres,Vehicle,,,,Yes,,,,,,
-12/1/2014 17:41:38,LM115,(unknown),(unknown),,,,,,Injury,,UNARMED,,,,,,,,,,
-12/1/2014 17:41:32,LM115,Perez,Angelo,,7/8/1972,,Male,White,No injuries,,Vehicle,,,,Yes,,,,,,
-12/1/2014 16:02:15,LM114,Cruz,Mauricio,Nunez,3/25/1974,,Male,Hispanic/Latino,Fatal,Palm Springs,"Handgun, Reached for or grabbed officer's weapon",,,,Yes,,,,,,
-11/25/2014 17:25:15,LM113,Bittle,Robert,Harold,10/24/1966,,Male,White,Injury,,Vehicle,,,,Yes,,,,,,
-11/25/2014 17:07:16,LM112,Calderin,Janira,,,30,Female,Hispanic/Latino,Injury,Boynton Beach,UNARMED,,,,,,,,,,
-11/25/2014 17:07:09,LM112,Herrera,Samir,D.,10/12/1977,,Male,White,Injury,Miramar,Handgun,Yes,,,Yes,,,,,,
-11/25/2014 16:26:53,LM111,Dabbs,William,P.,2/23/1957,,Male,White,Injury,Delray Beach,Handgun,,Yes,,Yes,,,,Aggravated assault/battery,,
-11/25/2014 15:49:16,LM110,Fleming,Keshaun,Lamont,7/16/1982,,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Handgun,,,,Yes,,,,,,
-11/25/2014 15:24:28,LM109,Smalls,Dimitri,Delarius,5/23/1992,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,Yes,,,,Resisting a police officer w/out violence,Dropped,
-11/25/2014 14:54:14,LM108,Gavin,Authneil,,9/5/1977,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery",,
-11/25/2014 14:16:59,LM107,Brown,Adam,L.,1/9/1963,,Male,White,Injury,Palm Beach Shores,Rifle,,,,,,,,Aggravated assault/battery,Acquitted,
-11/24/2014 18:37:14,LM106,Squire,Nicholas,A.,3/25/1990,,Male,White,Injury,,Knife or sword,,Yes,,,,,,Aggravated assault/battery,,
-11/4/2014 15:14:21,LM105,Demps,Craig,A.,1/23/1991,,Male,"Black, non-Hispanic/Latino",Fatal,,UNARMED,,,,Yes,,,,,,
-11/4/2014 14:48:17,LM104,Alvarez,Aldo,,11/26/1976,,Male,White,Injury,Royal Palm Beach,UNARMED,,,Yes,,,,,Aggravated assault/battery,,
-11/4/2014 14:12:14,LM103,McCray,Moses,,11/18/1981,,Male,"Black, non-Hispanic/Latino",Injury,,"Handgun, Vehicle",,,,Yes,,,,Aggravated assault/battery,Convicted,
-11/4/2014 12:36:40,LM102,Dillon,Timothy,Charles,10/19/1969,,Male,White,Injury,Boynton Beach,Handgun,,Yes,,,,"Alcohol, Cocaine, Marijuana",,Aggravated assault/battery,,
-11/3/2014 18:51:13,LM101,Stephens,Dontrell,,4/20/1993,,Male,"Black, non-Hispanic/Latino",Injury,,UNARMED,,,,Yes,,,,Failure to obey a lawful order,,
-11/3/2014 18:28:14,LM100,Flanagan,John,D.,6/3/1988,,Male,White,Injury,Royal Palm Beach,Vehicle,,,,,,,,Aggravated assault/battery,,
-10/31/2014 17:44:33,LM99,Burlakoff,Ian,,10/18/1971,,Male,White,Fatal,Boca Raton,Handgun,,,Yes,,,,,,,
-10/31/2014 16:20:45,LM98,Polen,Dimetri,Deion,10/6/1989,,Male,"Black, non-Hispanic/Latino",Fatal,,Rifle,,,,,"Marijuana, Prescription drugs",,,,,
-10/31/2014 15:30:28,LM97,Fay,James,Steven,,55,Male,White,Fatal,Boynton Beach,Handgun,,Yes,Yes,,"Alcohol, Prescription drugs",,,,,
-10/31/2014 13:36:01,LM96,Joseph,Lance,,7/26/1988,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,Yes,,,,,,,"Attempted murder, Aggravated assault/battery",,
-10/30/2014 17:43:02,LM95,Joseph,Anesson,,,28,Male,"Black, non-Hispanic/Latino",Fatal,,UNARMED,,,,,,,,,,
-10/30/2014 17:11:00,LM94,Ribeiro,Anthony,Charles,2/27/1966,,Male,White,Injury,Boca Raton,Bottle,,,,Yes,,Alcohol,,Aggravated assault/battery,,
-10/30/2014 15:27:40,LM93,Williams,Tinoris,T.,11/6/1982,,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Reached for or grabbed officer's weapon,,,Yes,Yes,,,,,,
-10/30/2014 13:50:11,LM92,Estime,Robens,,1/22/1994,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,,,,,Aggravated assault/battery,,
-10/20/2014 17:24:59,LM91,Perez-Leon,Byron,E.,,21,Male,Hispanic/Latino,Injury,Lake Worth,Handgun,,,,,,Alcohol,,,,
-10/20/2014 16:17:03,LM90,Hamilton,Perciel,Rashaund,1/10/1992,,Male,"Black, non-Hispanic/Latino",Injury,,Crowbar,,,,Yes,,,,Aggravated assault/battery,,
-10/15/2014 16:44:59,LM89,Jett,Joshua,,9/2/1986,,Male,White,Injury,,Vehicle,,,,Yes,,,,Aggravated assault/battery,,
-10/15/2014 15:46:08,LM88,Stuckey,Ira,Joe,5/11/1984,,Male,"Black, non-Hispanic/Latino",Injury,,UNARMED,,,,,,,,,,
-10/15/2014 15:10:35,LM87,Rossi,David,P.,10/23/1967,,Male,White,No injuries,West Palm Beach,Vehicle,,,,Yes,,,,,,
-10/15/2014 14:41:51,LM86,Austin,Jonathan,D.,12/9/1984,,Male,"Black, non-Hispanic/Latino",No injuries,Boynton Beach,Handgun,,,,,,,,,,
-10/14/2014 17:18:51,LM85,Shukas,Charles,W.,10/8/1982,,Male,White,No injuries,Lantana,UNARMED,,,,Yes,,,,,,
-9/26/2014 17:31:46,KL56,Tisdale,Eriese,A,,,Male,"Black, non-Hispanic/Latino",No injuries,Port St. Lucie,Handgun,Yes,,,,,,,Murder,,
-9/26/2014 16:53:46,KL55,Collins,James,,,46,Male,,Fatal,Greenacres,Knife or sword,,Yes,,Yes,"Cocaine, Prescription drugs",,,,,
-9/26/2014 16:37:15,KL54,Raja,Adnan,,,,Male,Asian,Injury,,Handgun,,,,,,,,,,Yes
-9/26/2014 16:14:06,KL53,Duval,Rigoberto,,3/7/1989,,Male,"Black, non-Hispanic/Latino",No injuries,Lake Park,Handgun,,,,,,,,Resisting a police officer w/out violence,Dropped,
-9/26/2014 15:54:53,LM84,Murray,Jamil,Ramon,6/30/1981,,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Knife or sword,,,,,,,,,,
-9/26/2014 15:32:46,KL52,Santiago,Alexi,,10/6/1984,,Male,Hispanic/Latino,No injuries,West Palm Beach,UNARMED,,,,,,,,,,
-9/26/2014 15:01:19,KL51,Hunter,Allen,H,5/20/1965,44,Male,"Black, non-Hispanic/Latino",Fatal,Lantana,Reached for or grabbed officer's weapon,,,,Yes,Cocaine,,,,,
-9/26/2014 14:38:01,LM83,Rives,William,Roe,9/19/1946,,Male,White,No injuries,Lake Harbor,Handgun,Yes,,,,,,,Attempted murder,Dropped,
-9/26/2014 14:34:38,KL50,Montero,Richard,,9/3/1965,44,Male,White,Fatal,West Palm Beach,Fought with officers,,,,,,,,,,
-9/26/2014 11:23:25,KL49,Perry,Marcus,,7/13/1990,,Male,"Black, non-Hispanic/Latino",No injuries,Royal Palm Beach,Handgun,Yes,,,Yes,,,,,,
-9/26/2014 11:00:30,KL48,Machado,Angel,,6/6/1989,,Male,White,Injury,Greenacres,UNARMED,,,,,,,,Conspiracy to commit home invasion,Convicted,
-9/26/2014 10:56:00,KL48,Alvarez,Robert,William,12/3/1990,,Male,White,No injuries,Greenacres,UNARMED,,,,,,,,"Aggravated assault/battery, conspiracy to commit armed robbery",Dropped,
-9/26/2014 10:52:10,KL48,Rosario,Ramon,,7/5/1992,17,Male,White,Injury,Lake Worth,Handgun,Yes,,,Yes,,,,"Aggravated assault/battery, grand theft auto, conspiracy to commit home invasion, possession of firearm by convicted felon",Convicted,
-9/25/2014 17:20:11,LM82,Gomez,Ramon,I.,9/7/1989,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Beat officer w/fists,,,,Yes,,,,,,
-9/25/2014 16:46:46,LM81,Charles,Alens,,2/10/1987,,Male,"Black, non-Hispanic/Latino",Injury,Lake Worth,UNARMED,,,,,,,,Obstructing a police officer,Dropped,
-9/25/2014 16:35:11,KL47,Geiserman,Robert,,,69,Male,White,Fatal,Boca Raton,Handgun,,Yes,,,,,,,,
-9/25/2014 15:55:00,KL46,Carrillo,Jose,,5/22/1984,,Male,"Black, non-Hispanic/Latino",No injuries,Okeechobee,Handgun,,,,,,,,,,
-9/25/2014 9:34:43,LM80,Gomez,Gleen,Dean,,21,Male,Hispanic/Latino,Fatal,Miami,Knife or sword,,Yes,,,,,,,,
-9/24/2014 16:49:19,KL45,Bennett,David,Scott,,40,Male,White,Fatal,Jupiter,UNARMED,,,,,,,,,,
-9/24/2014 14:44:07,KL44,Hutton,Jeremy,,,17,Male,White,Injury,Acreage,Vehicle,,,,,,,,,,
-9/24/2014 12:42:30,KL43,unknown,unknown,,,,Male,NA,Injury,NA,NA,,,,,,,,,,
-9/22/2014 17:58:19,LM79,Maldonado,Cesar,Domingo,,22,Male,Hispanic/Latino,Fatal,Lake Worth,UNARMED,,,,,,,,,,
-9/22/2014 17:28:48,LM78,Perez-Alonso,Carlos,Javier,,32,Male,Hispanic/Latino,Fatal,Fort Pierce,"BB or toy gun, Knife or sword",Yes,,,,,,,,,
-9/22/2014 16:33:26,LM77,Mortin,Derrick,Antonio,,18,Male,"Black, non-Hispanic/Latino",Injury,Mangonia Park,UNARMED,,,,,,,,,,
-9/22/2014 16:33:19,LM77,Holliday,Javery,,,18,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,BB or toy gun,,,,,,,,,,
-9/19/2014 17:46:09,LM76,Adkins,Dallas,Roger,8/14/1949,,Male,White,Fatal,Delray Beach,Rifle,,,,,,,,Aggravated assault/battery,Dropped,
-9/19/2014 16:53:49,LM75,Williams,Dijon,,4/19/1985,,Male,"Black, non-Hispanic/Latino",Fatal,Riviera Beach,Handgun,,,,Yes,,,,,,
-9/19/2014 16:30:42,LM74,James,Alexander,C.,3/22/1992,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-9/19/2014 16:00:52,LM73,Gamble,Mary,Joyce,6/5/1956,42,Female,"Black, non-Hispanic/Latino",Injury,Riviera Beach,UNARMED,,,,,,,,,,
-9/19/2014 16:00:47,LM73,Hay,Broderick,Fernando,6/19/1958,50,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,Yes,,,,Aggravated assault/battery,Convicted,
-9/19/2014 15:05:54,LM72,Phillips,Adam,,12/21/1977,30,Male,White,Fatal,,UNARMED,,,Yes,Yes,,,,,,
-9/19/2014 14:18:29,KL42,Burtschin,Andrew,Martin,3/8/1985,,Male,White,No injuries,Palm Beach Gardens,Rifle,,,,Yes,,,,Aggravated assault/battery,Convicted,
-9/19/2014 11:23:41,KL41,unknown,unknown,,,,,,,,,,,,,,,,,,
-9/19/2014 11:14:32,KL40,Pierre,Ralph,,12/7/1988,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Handgun,,,,,,,,improper exhibition of firearm; felon in possession of firearm,Convicted,
-9/19/2014 10:28:54,KL39,Mila,Jean,C.,12/27/1983,,Male,"Black, non-Hispanic/Latino",No injuries,Belle Glade,Handgun,Yes,,,Yes,,,,Discharging a firearm from a vehicle,Convicted,
-9/18/2014 18:17:35,LM71,Voltz,Edward,F.,7/28/1957,,Male,White,Injury,Loxahatchee,Rifle,,,,,,,,Attempted murder,Convicted,
-9/18/2014 17:43:55,LM70,Debrosse,Ruben,Charles,,16,Male,"Black, non-Hispanic/Latino",Fatal,Royal Palm Beach,Vehicle,,,,,,,,,,
-9/18/2014 16:09:31,LM69,Lee,Kathy,,11/30/1961,,Female,"Black, non-Hispanic/Latino",Injury,Deerfield Beach,UNARMED,,,,,,,,,,
-9/17/2014 18:25:44,LM68,Ramos,Marino,Sarbelio,8/3/1972,35,Male,Hispanic/Latino,Fatal,West Palm Beach,UNARMED,,,,,,,,,,
-9/17/2014 16:28:42,LM67,DeSilva,Jarrett,B.,2/25/1988,20,Male,White,Injury,Tamarac,UNARMED,,,,,,,,Fleeing/eluding a police officer,Dropped,
-9/16/2014 17:49:09,LM66,Antao,Bronson,David,1/17/1982,,Male,White,Injury,Boynton Beach,Vehicle,,,Yes,,,,,"Resisting a police officer w/violence, Attempted murder",Acquitted,
-9/16/2014 15:39:03,LM65,Horne,Alexander,,5/8/1989,,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,BB or toy gun,,,,,,,,Aggravated assault/battery,Convicted,
-9/16/2014 13:01:23,LM64,Johnson,Michael,Bernard,10/18/1986,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",,
-9/16/2014 11:06:27,LM63,Auguste,Eugene,Rony,10/20/1987,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Rifle,,,,Yes,,,,Aggravated assault/battery,Convicted,
-9/15/2014 19:08:34,LM62,Burgess,Thomas,W.,2/22/1985,,Male,"Black, non-Hispanic/Latino",Injury,Lake Worth,Vehicle,,,,Yes,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Convicted,
-9/15/2014 17:54:38,LM61,Vilsaint,Jacquelin,,4/20/1989,,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,Yes,,,Yes,,,,,,
-9/15/2014 16:50:02,LM60,Niellas,Vladimir,Bernal,1/6/1962,,Male,Hispanic/Latino,Fatal,West Palm Beach,Knife or sword,,,Yes,Yes,,,,,,
-9/15/2014 16:14:58,LM59,Soberon,Arthur,G.,9/6/1982,,Male,White,Injury,West Palm Beach,Knife or sword,,Yes,,Yes,,,,Aggravated assault/battery,Convicted,
-9/12/2014 17:50:51,KL38,Richards,Albert,Demarcus,4/17/1990,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,,,,,,,,,Possession of Cocaine,Convicted,
-9/12/2014 17:18:47,KL37,Pacifici,Susan,Jayne,7/25/1960,50,Female,White,Injury,Port St. Lucie,Handgun,,Yes,,,,,,"Aggravated assault/battery, discharging a firearm in public",Dropped,
-9/12/2014 16:58:29,KL36,Hatcher,Towond,Eugene,8/29/1986,,Male,"Black, non-Hispanic/Latino",No injuries,"Lawrenceville, GA",,,,,,,,,,,
-9/12/2014 16:45:19,LM58,Holloman,Kristopher,J.,1/19/1987,,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,,,,Yes,,,,Aggravated assault/battery,Convicted,
-9/12/2014 16:25:09,LM57,McCullough,Tavaris,Jermaine,4/25/1986,,Male,"Black, non-Hispanic/Latino",Fatal,,Handgun,,,,,"Alcohol, Methamphetamine",,,,,
-9/12/2014 15:38:49,LM56,Jackson,Andy,Lee,10/21/1985,,Male,"Black, non-Hispanic/Latino",Injury,Lantana,UNARMED,,,,,,,,,,
-9/12/2014 15:29:35,KL35,Haulotte,John,K,5/1/1988,23,Male,White,Injury,,UNARMED,,,,,,some type of hallucinogenic,,"Resisting a police officer w/out violence, escape while in lawful custody",Convicted,
-9/12/2014 14:32:27,LM55,Clairvoyant,Jethro,L.,4/29/1985,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,Yes,,,,Aggravated assault/battery,Convicted,
-9/12/2014 14:08:42,KL34,Robinson,Robert,Timothy,9/19/1991,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Handgun,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, carjacking; felon in possession of firearm",Convicted,
-9/12/2014 12:09:30,LM53,Jones,Vernon,M.,2/5/1984,,Male,"Black, non-Hispanic/Latino",Fatal,Royal Palm Beach,"Fists, lawn ornament",,,,Yes,,,,,,
-9/12/2014 12:03:16,KL33,Barreto,Jesus,Emmanuel,,23,Male,Hispanic/Latino,Fatal,,Knife or sword,,,Yes,,,,,,,
-9/11/2014 19:09:43,LM54,Beasley,Brandon,Zachariah,,23,Male,"Black, non-Hispanic/Latino",Injury,Lauderhill,Rifle,,,,,,,,,,
-9/11/2014 19:09:35,LM54,Beasley,Joshua,,,25,Male,"Black, non-Hispanic/Latino",Fatal,Lauderhill,Reached for or grabbed officer's weapon,,,,Yes,,,,,,
-9/10/2014 16:58:31,LM52,Weiland,Christopher,J.,10/11/1954,52,Male,White,Injury,Boynton Beach,Shotgun,,,,Yes,,,,Attempted murder,Acquitted,
-9/10/2014 16:13:16,LM51,Dicocco,Brian,Michael,4/9/1985,,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,,,,Yes,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Dropped,
-9/10/2014 14:41:56,LM50,Diana,Jesse,Michael,4/10/1973,,Male,White,Fatal,Ocala,Handgun,,,,Yes,"Alcohol, Prescription drugs",,,,,
-9/9/2014 19:21:35,LM49,Thevenin,Richard,,8/10/1978,,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-9/9/2014 15:30:31,LM48,Frierson,Ira,Houston,5/18/1957,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,Yes,,,Yes,,,,Aggravated assault/battery,Convicted,
-9/9/2014 13:41:51,LM47,Vest,Katie,Lee,9/30/1981,,Female,White,No injuries,,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-9/8/2014 17:20:40,LM46,Saulsby,Jenard,Corey,11/11/1990,,Male,"Black, non-Hispanic/Latino",No injuries,Riviera Beach,Handgun,,,,Yes,,,,Aggravated assault/battery,Convicted,
-9/5/2014 18:22:01,KL32,Norton,Michael,Lee,1/31/1988,23,Male,White,Injury,,UNARMED,,,,,,,,"home invasion, burglary, kidnapping",Convicted,
-9/5/2014 16:26:09,KL31,Unknown,Unknown,,2/12/2011,,Male,"Black, non-Hispanic/Latino",No injuries,unknown,Handgun,,,,,,,,,,
-9/5/2014 15:58:35,KL31,Anderson,Jamar,F,,24,Male,"Black, non-Hispanic/Latino",Fatal,Fort Lauderdale,Vehicle,,,,,,,,,,
-9/5/2014 15:28:03,KL30,Unknown,Unknown,,,,NA,NA,NA,NA,Vehicle,,,,,,,,,,
-9/5/2014 15:16:18,KL29,Thompson,Christopher,,,18,Male,White,Fatal,Palm Springs,Rifle,Yes,Yes,,,,,,,,
-9/3/2014 18:16:47,LM45,Wallace,Russell,,7/21/1970,,Male,White,Fatal,,Reached for or grabbed officer's weapon,,,,Yes,Cocaine,,,,,
-9/3/2014 15:10:42,LM44,Isaias-Magdaleno,Antonio,Gerardo,2/12/1985,21,Male,White,Fatal,Palm Springs,Handgun,Yes,,,,,,,,,
-9/2/2014 19:06:10,LM43,Hutchins,Patrick,,4/20/1986,,Male,"Black, non-Hispanic/Latino",No injuries,,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-9/2/2014 18:18:30,LM40,Washington,Chester,Otis,10/27/1976,29,Male,"Black, non-Hispanic/Latino",Fatal,Jupiter,UNARMED,,,,Yes,"Alcohol, Cocaine",,,,,
-9/2/2014 15:43:39,LM42,White,Shirley,,,53,Female,NA,Injury,Margate,UNARMED,,,,,,,,,,
-9/2/2014 15:43:36,LM42,Bender III,William,R.,3/3/1952,54,Male,White,Fatal,Fort Myers,Handgun,Yes,,,,,,,,,
-9/2/2014 13:36:55,LM41,Forrest,Marilou,,,56,Female,White,Fatal,Boca Raton,Knife or sword,,,Yes,,,,,,,
-8/29/2014 16:53:24,KL28,Heffernan,Justin Sr. ,Lawrence,1/28/1976,,Male,White,No injuries,Lantana,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, grand theft, kidnapping",Dropped,
-8/29/2014 16:45:55,KL28,Heffernan ,Justin Jr.,Lawrence,8/3/1992,19,Male,White,Injury,Lantana,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, reckless driving, grand theft",Convicted,
-8/29/2014 15:32:27,KL27,Neloms III,Marcus,Lee,,28,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,"Handgun, Knife or sword",Yes,,,,,,,,,
-8/29/2014 14:37:09,KL26,Sahakian,Leon,A,10/23/1961,50,Male,White,Fatal,Palm Beach Gardens,Knife or sword,,Yes,,Yes,,,,,,
-8/29/2014 13:02:33,LM39,Jones,Melvin,,3/1/1978,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Dropped,
-8/29/2014 12:44:11,KL25,Adams,Seth,,,24,Male,White,Fatal,Loxahatchee,UNARMED,,,,,Alcohol,,,,,
-8/29/2014 12:28:18,LM38,Rock,Dennis,Keith,3/17/1968,,Male,White,Injury,Okeechobee,Rifle,,,,Yes,,,,Aggravated assault/battery,Convicted,
-8/29/2014 11:39:03,LM37,Coleman,David,J.,10/21/1963,,Male,White,No injuries,Wellington,Vehicle,,,,Yes,,,,,,
-8/29/2014 11:27:49,KL24,Wallach,Michael,James,9/14/1989,22,Male,White,Injury,West Palm Beach,Handgun,Yes,,,Yes,,,,"Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer, home invasion w firearm, burglary w firearm,  felon in possession of firearm",,
-8/26/2014 13:20:53,LM36,Bodie,Craig,,10/5/1958,46,Male,White,Fatal,Boca Raton,Handgun,,Yes,Yes,Yes,"Alcohol, Cocaine",,,,,
-8/25/2014 14:24:11,LM31,Lester,Allen,G.,2/26/1982,22,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,
-8/22/2014 17:59:39,KL23,Felipe,Armando,Gonzalez,,39,Male,Hispanic/Latino,Fatal,,Handgun,Yes,,,,,,,,,
-8/22/2014 17:24:44,LM35,Monroe,Dexter,Eugene,,23,Male,"Black, non-Hispanic/Latino",Fatal,,Handgun,,,,,,,,,,
-8/22/2014 16:18:04,LM34,Foulks,Kareem,J.,5/22/1984,,Male,"Black, non-Hispanic/Latino",No injuries,,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,
-8/22/2014 15:58:09,KL22,Camberdella,Michael,,,18,Male,White,Fatal,Boynton Beach,hammer; tree trimmer,,,Yes,,,,,,,
-8/22/2014 15:35:31,KL21,Fuller,Daniel,Ross,,46,Male,White,Fatal,Miami,Handgun,,Yes,,,,,,,,
-8/22/2014 15:24:57,LM33,Garczynski Jr.,John,T.,,37,Male,White,Fatal,Boca Raton,Handgun,,Yes,,,,,,,,
-8/22/2014 13:03:30,LM32,Grbic,Boris,N.,,50,Male,White,Fatal,Port St. Lucie,Handgun,Yes,Yes,Yes,Yes,,,,,,
-8/22/2014 11:07:48,KL20,Jolicoeur,Claude III,Devin,,17,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Handgun,,,,Yes,,,,,,
-8/21/2014 15:30:41,LM30,Desilio,Bernard,P.,5/3/1968,,Male,White,No injuries,,UNARMED,,,,,,Cocaine,,Resisting a police officer w/violence,Acquitted,
-8/21/2014 14:40:57,LM29,Sanchez,Rodolfo,J.,7/4/1958,46,Male,Hispanic/Latino,No injuries,Lake Worth,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Dropped,
-8/20/2014 17:50:36,LM28,Henry,Manu,H.,9/16/1977,27,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,UNARMED,,,,,,,,,,
-8/20/2014 17:25:56,LM27,Freeman,Anthony,A.,7/6/1965,,Male,"Black, non-Hispanic/Latino",No injuries,Port St. Lucie,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Dropped,
-8/20/2014 16:45:36,LM26,Feldman,Stephen,A.,4/21/1946,58,Male,White,Fatal,Boca Raton,Handgun,,,,,,,,,,
-8/20/2014 15:47:15,LM25,Whitefield,Preston,,3/2/1987,17,Male,White,Injury,Lake Park,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,
-8/20/2014 15:22:47,LM24,Vitt,Gary,Lee,,44,Male,,Fatal,Belleview,Handgun,,,,,,,,,,
-8/19/2014 18:22:52,LM23,Emilcar,Sadras,,9/15/1975,28,Male,"Black, non-Hispanic/Latino",No injuries,Delray Beach,BB or toy gun,,,,,,,,,,
-8/19/2014 17:27:58,LM22,Battie,Latavius,,5/15/1981,,Male,"Black, non-Hispanic/Latino",No injuries,Mangonia Park,Vehicle,,,,,,,,,,
-8/19/2014 16:29:56,LM21,Pledger,Charles,L.,9/4/1980,23,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,Yes,,,,"Attempted murder, Aggravated assault/battery",Acquitted,
-8/19/2014 15:03:21,LM20,Monty,Paul,D.,7/24/1969,34,Male,White,Injury,Wellington,UNARMED,,,,Yes,,,,,,
-8/19/2014 14:18:08,LM19,Skwierc,Christopher,,,18,Male,White,Fatal,Lake Park,BB or toy gun,,,Yes,,Alcohol,,,,,
-8/19/2014 12:02:34,LM18,Colombo Jr.,Dennis,G.,6/26/1975,28,Male,White,Fatal,Palm Beach Gardens,Rifle,,,,,,,,,,
-8/18/2014 18:56:48,LM17,Brown,Thomas,Markeith,,19,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,,,,Yes,,,,,,
-8/18/2014 18:26:41,LM16,Sanchez,Wilmer,,,43,Male,White,Fatal,Lake Worth,Handgun,,Yes,,Yes,,,,,,
-8/18/2014 16:55:17,LM15,(unknown),(unknown),,,,Male,"Black, non-Hispanic/Latino",Unknown,,Vehicle,,,,,,,,,,
-8/15/2014 18:26:48,LM14,Wilson,Herbert,,,32,Male,"Black, non-Hispanic/Latino",Injury,Belle Glade,UNARMED,,,,Yes,,,,,,
-8/15/2014 17:58:24,KL19,Falconi,Angella,,,24,Female,White,Fatal,Lake Worth ,Knife or sword,,,,,,,,,,
-8/15/2014 17:34:29,LM13,Wegrich,John,A.,3/26/1947,54,Male,White,Fatal,West Palm Beach,BB or toy gun,,,,Yes,,,,,,
-8/15/2014 17:28:08,KL18,Rhodes,Daniel,Lee,5/9/1963,49,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Knife or sword,,,,Yes,,,,,,
-8/15/2014 17:03:28,LM12,Young,Michael,O.,10/14/1960,41,Male,,Fatal,Lantana,"Handgun, fake pipe bomb",Yes,,,,,,,,,
-8/15/2014 14:56:28,KL17,Hunter Jr.,Morris,Lee,4/6/1964,,Male,White,Injury,Lake Worth,Vehicle,,,,Yes,,,,Aggravated assault/battery,Convicted,
-8/15/2014 14:31:53,LM10,Lewis,Mark,E.,10/13/1968,31,Male,White,Fatal,Deerfield Beach,Handgun,,,,Yes,,,,,,
-8/15/2014 14:12:00,KL16,Bush,Antwon,Denard,11/27/1982,,Male,"Black, non-Hispanic/Latino",No injuries,Riviera Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, Grand theft Auto",Convicted,
-6/20/2014 17:34:25,KL15,Hair,Jamel,,1/1/1981,20,Male,"Black, non-Hispanic/Latino",Injury,Vero Beach,Vehicle,,,,,,,,"Attempted murder, Aggravated assault/battery, Possession of cannabis, purchase of cannabis",Acquitted,
-6/20/2014 15:59:24,KL14,Austgen,John Jr.,Donald,8/26/1965,47,Male,White,Fatal,Fort Pierce,Vehicle,,,,Yes,,,,,,
-5/26/2014 17:00:30,KL13,Canady,Kenneth,Orrin,3/17/1961,,Male,"Black, non-Hispanic/Latino",Injury,Port St. Lucie,Vehicle,,,,Yes,,,,,,
-5/26/2014 16:43:05,KL12,Hernandez,Antonio,,8/23/1982,,Male,"Black, non-Hispanic/Latino",No injuries,Fort Pierce,Vehicle,,,,,,,,"Resisting a police officer w/out violence, Aggravated assault/battery, Fleeing/eluding a police officer, Driving under influence, driving with suspended license, open container in vehicle",,
-5/26/2014 15:04:58,KL11,Coberly,Steven,Randolph,8/28/1965,,Male,White,Injury,Fort Pierce,crow bar,,,,Yes,,Cocaine,,"Resisting a police officer w/out violence, Aggravated assault/battery, Larceny, burglary, breaking & entering, violation of probation",Convicted,
-5/26/2014 14:30:05,KL10,Smith,Chad,,8/14/1969,,Male,"Black, non-Hispanic/Latino",Injury,Chicago,Handgun,,,,Yes,,,,Aggravated assault/battery,Pleaded to lesser crime,
-5/26/2014 12:07:25,KL9,Margolis,Marco,Robert,12/22/1970,,Male,White,Injury,Port St. Lucie,Vehicle,,,,Yes,,,,"Resisting a police officer w/out violence, Aggravated assault/battery, Fleeing/eluding a police officer, Trespassing, disturbing the peace, grand theft, driving with suspended license",,
-5/19/2014 11:25:59,KL8,Arango,Victor,A,11/15/1985,26,Male,Hispanic/Latino,Fatal,Lake Worth,Handgun,,,,,"Opiates, Oxycodone",,,,,
-12/18/2013 17:15:19,DC3,Steward,Sagon,Mickletoe,5/12/1988,,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Handgun,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery, Fleeing/eluding a police officer, Armed Robbery",Dropped,
-12/18/2013 13:18:34,DC2,Jackson Jr.,Robert,Louis,2/11/1989,,Male,"Black, non-Hispanic/Latino",Injury,Pompano Beach,Handgun,,,,Yes,,,,"Resisting a police officer w/out violence, Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer, Tampering with Evidence",,
-12/5/2013 11:59:57,DC1,Johnson,Marvin,Tristan,4/5/1990,,Male,"Black, non-Hispanic/Latino",No injuries,Boynton Beach,"Knife or sword, Vehicle",,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-12/4/2013 18:45:29,DC1,Cox,Kyshaud,Triond,7/10/1989,,Male,"Black, non-Hispanic/Latino",No injuries,,"Knife or sword, Vehicle",,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, Carjacking (Deadly Weapon)",Convicted,
-8/9/2013 17:32:28,LM9,Rawls,Darlene,Anita,10/14/1970,,Female,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",,
-8/2/2013 11:56:35,KL7,Hall,Gene,Autry,1/16/1988,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Vehicle,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery, Burglary, Grand Theft",Convicted,
-8/2/2013 11:39:33,LM6,Bean,John,Henry,8/2/1990,,Male,"Black, non-Hispanic/Latino",Injury,Delray Beach,Handgun,,,,,,,,Aggravated assault/battery,,
-8/2/2013 11:13:10,KL6,Martinez,Adalberto ,V,1/7/1981,,Male,Hispanic/Latino,Fatal,Palm Beach Gardens,Handgun,Yes,,,,"Cocaine, Opiates",,,,,
-7/15/2013 18:51:56,LM5,Rahming,Derrick,A.,7/2/1980,,Male,"Black, non-Hispanic/Latino",No injuries,,NA,,,,,,,,,,
-7/15/2013 18:22:33,LM5,Scheetz,Mellow,D.,10/1/1977,,Female,White,Injury,,NA,,,,,,,,,,
-7/12/2013 18:16:40,LM4,Wilson,Tarvis,Merrell,4/2/1987,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,Yes,,,,,,,"Resisting a police officer w/violence, Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-7/12/2013 16:14:18,LM3,Troutman,Reggie,Devar,12/11/1985,,Male,"Black, non-Hispanic/Latino",No injuries,Ft. Lauderdale,UNARMED,,,,Yes,,,,"Resisting a police officer w/violence, Resisting a police officer w/out violence, Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,
-6/14/2013 16:57:24,KL5,NA,NA,,NA,NA,NA,NA,,NA,,,,,,,,,,,
-6/14/2013 16:19:46,KL4,NA,NA,,NA,NA,NA,NA,,NA,,,,,,,,,,,
-6/14/2013 16:08:45,KL3,NA,NA,,NA,NA,NA,NA,,NA,,,,,,,,,,,
-6/14/2013 15:50:59,KL2,Smith,Clayton,,6/29/1986,16,Male,"Black, non-Hispanic/Latino",Injury,Fort Lauderdale,Vehicle,,,,,,,,"Resisting a police officer w/out violence, Fleeing/eluding a police officer, leaving the scene of an accident w/ property damage, reckless driving",,
-6/6/2013 12:05:58,LM2,Connelly,James,,8/23/1983,,Male,White,Fatal,,Handgun,Yes,,,Yes,,,,,,
-5/31/2013 11:13:47,KL1,Clemons,John,Earl,7/23/1992,,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,
-5/30/2013 18:46:39,LM1,Wallace,Calvin,,5/20/1960,,Male,"Black, non-Hispanic/Latino",Fatal,Boynton Beach,Handgun,Yes,,,,,,,,,
-4/12/2015 16:24:46,JE01,Key,Arthur,L,2/12/1981,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach ,Handgun,,,,Yes,,,,"Aggravated assault/battery, possession of a firearm by a convicted felon",,
-4/12/2015 16:52:44,JE02,Unknown,Unknown,,,,Male,"Black, non-Hispanic/Latino",,,Handgun,,,,,,,,,,
+Timestamp,Incident ID,Subject last name,First name,Middle name or initial,DOB,Age,Gender,Ethnicity,Injury level,City of residence,Subject weapon(s),Did subject shoot at police?,Was subject behaving suicidal?,History of mental illness?,Arrest history?,Toxicology (D),Toxicology (S),Charges?,Crime charged with?,Crime disposition,Self-shooting?,Mug
+3/16/2015 16:36:55,LM143,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 16:46:53,LM144,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 17:05:04,LM145,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 17:21:25,LM147,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 17:28:28,LM148,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 17:53:34,LM149,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 20:59:49,LM152,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 21:05:26,LM153,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 21:47:25,LM156,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/17/2015 14:57:02,LM162,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/17/2015 15:29:49,LM164,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/17/2015 15:41:05,LM165,(no subject),(no subject),,,,,,No injuries,,,,,,,,,,,,,
+3/16/2015 16:17:27,LM142,(no subject),(no subject),,,,,,,,,,,,,,,,,,,
+3/16/2015 9:25:41,LM139,(no subject),(no subject),,,,,,,,,,,,,,,,,,,
+3/15/2015 13:18:59,LM134,(no subject),(no subject),,,,,,,,,,,,,,,,,,,
+3/13/2015 17:40:51,LM133,(no subject),(no subject),(no subject),,,,,,,,,,,,,,,,,,
+3/17/2015 15:22:47,LM163,(unknown),(unknown),,,,,,,,,,,,,,,,,,,
+8/18/2014 16:55:17,LM15,(unknown),(unknown),,,,Male,"Black, non-Hispanic/Latino",Unknown,,Vehicle,,,,,,,,,,,
+3/16/2015 8:10:15,LM135,(unknown),(unknown),,,,Male,,Unknown,,Handgun,Yes,,,,,,,,,,
+3/16/2015 8:57:41,LM137,(unknown),(unknown),,,,Male,Hispanic/Latino,No injuries,,Vehicle,,,,,,,,,,,
+3/16/2015 10:01:51,LM141,(unknown),(unknown),,,,Male,"Black, non-Hispanic/Latino",Unknown,,Handgun,Yes,,,,,,,,,,
+3/17/2015 11:25:57,LM158,(unknown),(unknown),,,,,,No injuries,,Vehicle,,,,,,,,,,,
+12/1/2014 17:41:38,LM115,(unknown),(unknown),,,,,,Injury,,UNARMED,,,,,,,,,,,
+3/17/2015 13:49:40,LM160,(unknown),(unknown),,,,,,Unknown,,Vehicle,,,,,,,,,,,
+8/29/2014 12:44:11,KL25,Adams,Seth,,4/19/1988,24,Male,White,Fatal,Loxahatchee,UNARMED,,,,,Alcohol,,,,,,yes
+9/19/2014 17:46:09,LM76,Adkins,Dallas,Roger,8/14/1949,,Male,White,Fatal,Delray Beach,Rifle,,,,,,,,Aggravated assault/battery,Dropped,,no
+11/4/2014 14:48:17,LM104,Alvarez,Aldo,,11/26/1976,,Male,White,Injury,Royal Palm Beach,UNARMED,,,Yes,,,,,Aggravated assault/battery,,,yes
+9/26/2014 10:56:00,KL48,Alvarez,Robert,William,12/3/1990,,Male,White,No injuries,Greenacres,UNARMED,,,,,,,,"Aggravated assault/battery, conspiracy to commit armed robbery",Dropped,,yes
+3/16/2015 21:36:25,LM155,Ammon,Donald,,10/29/1956,,Male,,Injury,,,,,,,,,,,,Yes,no
+9/5/2014 15:58:35,KL31,Anderson,Jamar,F,,24,Male,"Black, non-Hispanic/Latino",Fatal,Fort Lauderdale,Vehicle,,,,,,,,,,,yes
+3/17/2015 20:15:36,LM167,Andrews,Telly,L.,11/8/1973,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,Yes,,,,"Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,yes
+9/16/2014 17:49:09,LM66,Antao,Bronson,David,1/17/1982,,Male,White,Injury,Boynton Beach,Vehicle,,,Yes,,,,,"Resisting a police officer w/violence, Attempted murder",Acquitted,,yes
+5/19/2014 11:25:59,KL8,Arango,Victor,A,11/15/1985,26,Male,Hispanic/Latino,Fatal,Lake Worth,Handgun,,,,,"Opiates, Oxycodone",,,,,,yes
+12/2/2014 18:46:45,LM116,Ariot,Marc,C.,12/14/1986,,Male,"Black, non-Hispanic/Latino",Fatal,Greenacres,Vehicle,,,,Yes,,,,,,,yes
+9/16/2014 11:06:27,LM63,Auguste,Eugene,Rony,10/20/1987,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Rifle,,,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+6/20/2014 15:59:24,KL14,Austgen,John Jr.,Donald,8/26/1965,47,Male,White,Fatal,Fort Pierce,Vehicle,,,,Yes,,,,,,,yes
+10/15/2014 14:41:51,LM86,Austin,Jonathan,D.,12/9/1984,,Male,"Black, non-Hispanic/Latino",No injuries,Boynton Beach,Handgun,,,,,,,,,,,no
+12/8/2014 15:02:20,LM121,Barber II,Charles,B.,4/3/1968,,Male,White,Fatal,Jupiter,Handgun,,,,Yes,,,,,,,yes
+9/12/2014 12:03:16,KL33,Barreto,Jesus,Emmanuel,,23,Male,Hispanic/Latino,Fatal,,Knife or sword,,,Yes,,,,,,,,yes
+8/19/2014 17:27:58,LM22,Battie,Latavius,,5/15/1981,,Male,"Black, non-Hispanic/Latino",No injuries,Mangonia Park,Vehicle,,,,,,,,,,,no
+8/2/2013 11:39:33,LM6,Bean,John,Henry,8/2/1990,,Male,"Black, non-Hispanic/Latino",Injury,Delray Beach,Handgun,,,,,,,,Aggravated assault/battery,,,yes
+9/11/2014 19:09:43,LM54,Beasley,Brandon,Zachariah,,23,Male,"Black, non-Hispanic/Latino",Injury,Lauderhill,Rifle,,,,,,,,,,,yes
+9/11/2014 19:09:35,LM54,Beasley,Joshua,,5/6/1981,25,Male,"Black, non-Hispanic/Latino",Fatal,Lauderhill,Reached for or grabbed officer's weapon,,,,Yes,,,,,,,yes
+12/23/2014 10:24:10,LM130,Beckham,Robin,,8/25/1978,,Male,"Black, non-Hispanic/Latino",Injury,Delray Beach,Fists,,,,Yes,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Convicted,,yes
+12/8/2014 19:33:55,LM125,Bell,Damon,,7/25/1980,,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,,,,,,,,no
+4/17/2015 19:19:01,KL72,Bell,Larry ,D,,,Male,"Black, non-Hispanic/Latino",Injury,,"Handgun, Rifle",,,,,,,,,,,
+9/24/2014 16:49:19,KL45,Bennett,David,Scott,1/26/1970,40,Male,White,Fatal,Jupiter,UNARMED,,,,,,,,,,,yes
+11/25/2014 17:25:15,LM113,Bittle,Robert,Harold,10/24/1966,,Male,White,Injury,,Vehicle,,,,Yes,,,,,,,yes
+8/26/2014 13:20:53,LM36,Bodie,Craig,,10/5/1958,46,Male,White,Fatal,Boca Raton,Handgun,,Yes,Yes,Yes,"Alcohol, Cocaine",,,,,,yes
+9/2/2014 15:43:36,LM42,Bender III,William,R.,3/3/1952,54,Male,White,Fatal,Fort Myers,Handgun,Yes,,,,,,,,,,no
+12/8/2014 18:38:18,LM124,Brown,Ralph,A.,9/4/1981,,Male,"Black, non-Hispanic/Latino",Fatal,,Vehicle,,,,Yes,,,,,,,yes
+11/25/2014 14:16:59,LM107,Brown,Adam,L.,1/9/1963,,Male,White,Injury,Palm Beach Shores,Rifle,,,,,,,,Aggravated assault/battery,Acquitted,,yes
+4/15/2015 14:25:50,KL70,Bowen,Luke,Tafari,5/12/1989,,Male,"Black, non-Hispanic/Latino",No injuries,Riviera Beach,Handgun,Yes,,,,,,,"Attempted murder, Robbery with firearm",Convicted,,
+12/5/2014 16:29:15,KL62,Bryant,Stephen,,,,Male,White,Fatal,Port St. Lucie,Knife or sword,,,,,,,,,,,yes
+3/16/2015 9:48:24,LM140,Burdett,Nicholas,,,24,Male,White,Fatal,"Needham, Massachusetts",Knife or sword,,,Yes,,"Alcohol, Prescription drugs",,,,,,yes
+9/15/2014 19:08:34,LM62,Burgess,Thomas,W.,2/22/1985,,Male,"Black, non-Hispanic/Latino",Injury,Lake Worth,Vehicle,,,,Yes,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Convicted,,yes
+10/31/2014 17:44:33,LM99,Burlakoff,Ian,,10/18/1971,,Male,White,Fatal,Boca Raton,Handgun,,,Yes,,,,,,,,yes
+12/8/2014 15:44:46,LM122,Brooks,Donovan,,4/17/1965,40,Male,"Black, non-Hispanic/Latino",Fatal,,UNARMED,,,,,,,,,,,no
+8/18/2014 18:56:48,LM17,Brown,Thomas,Markeith,,19,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,,,,Yes,,,,,,,no
+11/25/2014 17:07:16,LM112,Calderin,Janira,,,30,Female,Hispanic/Latino,Injury,Boynton Beach,UNARMED,,,,,,,,,,,yes
+9/19/2014 14:18:29,KL42,Burtschin,Andrew,Martin,3/8/1985,,Male,White,No injuries,Palm Beach Gardens,Rifle,,,,Yes,,,,Aggravated assault/battery,Convicted,,no
+5/26/2014 17:00:30,KL13,Canady,Kenneth,Orrin,3/17/1961,,Male,"Black, non-Hispanic/Latino",Injury,Port St. Lucie,Vehicle,,,,Yes,,,,,,,yes
+8/15/2014 14:12:00,KL16,Bush,Antwon,Denard,11/27/1982,,Male,"Black, non-Hispanic/Latino",No injuries,Riviera Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, Grand theft Auto",Convicted,,no
+12/4/2014 17:25:35,LM119,Carroll,Zachary,,,21,Male,White,Injury,Fort Lauderdale,UNARMED,,,,,,,,,,,yes
+4/15/2015 14:08:00,MM2,Caldwell,Cory,,8/22/1989,,Male,"Black, non-Hispanic/Latino",Fatal,Deerfield Beach,Rifle,,,,,,,,,,,
+9/25/2014 16:46:46,LM81,Charles,Alens,,2/10/1987,,Male,"Black, non-Hispanic/Latino",Injury,Lake Worth,UNARMED,,,,,,,,Obstructing a police officer,Dropped,,yes
+9/12/2014 14:32:27,LM55,Clairvoyant,Jethro,L.,4/29/1985,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+5/31/2013 11:13:47,KL1,Clemons,John,Earl,7/23/1992,,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,,yes
+5/26/2014 15:04:58,KL11,Coberly,Steven,Randolph,8/28/1965,,Male,White,Injury,Fort Pierce,crow bar,,,,Yes,,Cocaine,,"Resisting a police officer w/out violence, Aggravated assault/battery, Larceny, burglary, breaking & entering, violation of probation",Convicted,,yes
+8/22/2014 15:58:09,KL22,Camberdella,Michael,,,18,Male,White,Fatal,Boynton Beach,hammer; tree trimmer,,,Yes,,,,,,,,no
+9/26/2014 16:53:46,KL55,Collins,James,,4/28/1963,46,Male,,Fatal,Greenacres,Knife or sword,,Yes,,Yes,"Cocaine, Prescription drugs",,,,,,yes
+8/19/2014 12:02:34,LM18,Colombo Jr.,Dennis,G.,6/26/1975,28,Male,White,Fatal,Palm Beach Gardens,Rifle,,,,,,,,,,,yes
+6/6/2013 12:05:58,LM2,Connelly,James,,8/23/1983,,Male,White,Fatal,,Handgun,Yes,,,Yes,,,,,,,yes
+9/25/2014 15:55:00,KL46,Carrillo,Jose,,5/22/1984,,Male,"Black, non-Hispanic/Latino",No injuries,Okeechobee,Handgun,,,,,,,,,,,no
+12/11/2014 17:35:24,KL52,Castillo,Wilfredo,,6/20/1964,,Male,Hispanic/Latino,No injuries,West Palm Beach,UNARMED,,,,,,,,,,,no
+12/1/2014 16:02:15,LM114,Cruz,Mauricio,Nunez,3/25/1974,,Male,Hispanic/Latino,Fatal,Palm Springs,"Handgun, Reached for or grabbed officer's weapon",,,,Yes,,,,,,,yes
+11/25/2014 16:26:53,LM111,Dabbs,William,P.,2/23/1957,,Male,White,Injury,Delray Beach,Handgun,,Yes,,Yes,,,,Aggravated assault/battery,,,yes
+4/17/2015 23:07:45,KL73,Chaney,James Jr.,Hayward,5/19/1954,,Male,White,Injury,Vero Beach,Shotgun,,,,Yes,,,,"Attempted murder, Robbery armed w deadly weapon, planting a hoax bomb",Convicted,,
+11/4/2014 15:14:21,LM105,Demps,Craig,A.,1/23/1991,,Male,"Black, non-Hispanic/Latino",Fatal,,UNARMED,,,,Yes,,,,,,,yes
+8/29/2014 11:39:03,LM37,Coleman,David,J.,10/21/1963,,Male,White,No injuries,Wellington,Vehicle,,,,Yes,,,,,,,no
+12/12/2014 17:01:11,KL66,Cox,Ronald,J,7/29/1960,,Male,"Black, non-Hispanic/Latino",,Fort Pierce,Handgun,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,no
+9/10/2014 14:41:56,LM50,Diana,Jesse,Michael,4/10/1973,,Male,White,Fatal,Ocala,Handgun,,,,Yes,"Alcohol, Prescription drugs",,,,,,yes
+12/4/2013 18:45:29,DC1,Cox,Kyshaud,Triond,7/10/1989,,Male,"Black, non-Hispanic/Latino",No injuries,,"Knife or sword, Vehicle",,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, Carjacking (Deadly Weapon)",Convicted,,no
+11/4/2014 12:36:40,LM102,Dillon,Timothy,Charles,10/19/1969,,Male,White,Injury,Boynton Beach,Handgun,,Yes,,,,"Alcohol, Cocaine, Marijuana",,Aggravated assault/battery,,,yes
+4/17/2015 15:14:47,KL71,Cox,Reginald,John,7/29/1959,,Male,"Black, non-Hispanic/Latino",No injuries,Ft. Pierce,Handgun,Yes,,,Yes,,,,"Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer, Possession of Firearm, criminal mischief",,,
+9/18/2014 17:43:55,LM70,Debrosse,Ruben,Charles,,16,Male,"Black, non-Hispanic/Latino",Fatal,Royal Palm Beach,Vehicle,,,,,,,,,,,no
+10/30/2014 13:50:11,LM92,Estime,Robens,,1/22/1994,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,,,,,Aggravated assault/battery,,,yes
+8/15/2014 17:58:24,KL19,Falconi,Angella,,,24,Female,White,Fatal,Lake Worth ,Knife or sword,,,,,,,,,,,yes
+10/31/2014 15:30:28,LM97,Fay,James,Steven,,55,Male,White,Fatal,Boynton Beach,Handgun,,Yes,Yes,,"Alcohol, Prescription drugs",,,,,,yes
+8/21/2014 15:30:41,LM30,Desilio,Bernard,P.,5/3/1968,,Male,White,No injuries,,UNARMED,,,,,,Cocaine,,Resisting a police officer w/violence,Acquitted,,no
+8/22/2014 17:59:39,KL23,Felipe,Armando,Gonzalez,6/13/1972,39,Male,Hispanic/Latino,Fatal,,Handgun,Yes,,,,,,,,,,yes
+11/3/2014 18:28:14,LM100,Flanagan,John,D.,6/3/1988,,Male,White,Injury,Royal Palm Beach,Vehicle,,,,,,,,Aggravated assault/battery,,,yes
+11/25/2014 15:49:16,LM110,Fleming,Keshaun,Lamont,7/16/1982,,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Handgun,,,,Yes,,,,,,,yes
+9/2/2014 13:36:55,LM41,Forrest,Marilou,,,56,Female,White,Fatal,Boca Raton,Knife or sword,,,Yes,,,,,,,,yes
+9/17/2014 16:28:42,LM67,DeSilva,Jarrett,B.,2/25/1988,20,Male,White,Injury,Tamarac,UNARMED,,,,,,,,Fleeing/eluding a police officer,Dropped,,no
+9/10/2014 16:13:16,LM51,Dicocco,Brian,Michael,4/9/1985,,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,,,,Yes,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Dropped,,no
+9/9/2014 15:30:31,LM48,Frierson,Ira,Houston,5/18/1957,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,Yes,,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+8/22/2014 15:35:31,KL21,Fuller,Daniel,Ross,,46,Male,White,Fatal,Miami,Handgun,,Yes,,,,,,,,,yes
+9/19/2014 16:00:52,LM73,Gamble,Mary,Joyce,6/5/1956,42,Female,"Black, non-Hispanic/Latino",Injury,Riviera Beach,UNARMED,,,,,,,,,,,yes
+9/26/2014 16:14:06,KL53,Duval,Rigoberto,,3/7/1989,,Male,"Black, non-Hispanic/Latino",No injuries,Lake Park,Handgun,,,,,,,,Resisting a police officer w/out violence,Dropped,,no
+11/25/2014 14:54:14,LM108,Gavin,Authneil,,9/5/1977,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery",,,yes
+9/25/2014 16:35:11,KL47,Geiserman,Robert,,3/27/1941,69,Male,White,Fatal,Boca Raton,Handgun,,Yes,,,,,,,,,yes
+9/25/2014 17:20:11,LM82,Gomez,Ramon,I.,9/7/1989,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Beat officer w/fists,,,,Yes,,,,,,,yes
+8/19/2014 18:22:52,LM23,Emilcar,Sadras,,9/15/1975,28,Male,"Black, non-Hispanic/Latino",No injuries,Delray Beach,BB or toy gun,,,,,,,,,,,no
+8/20/2014 16:45:36,LM26,Feldman,Stephen,A.,4/21/1946,58,Male,White,Fatal,Boca Raton,Handgun,,,,,,,,,,,no
+6/20/2014 17:34:25,KL15,Hair,Jamel,,12/3/1981,20,Male,"Black, non-Hispanic/Latino",Injury,Vero Beach,Vehicle,,,,,,,,"Attempted murder, Aggravated assault/battery, Possession of cannabis, purchase of cannabis",Acquitted,,yes
+8/22/2014 16:18:04,LM34,Foulks,Kareem,J.,5/22/1984,,Male,"Black, non-Hispanic/Latino",No injuries,,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,,no
+10/20/2014 16:17:03,LM90,Hamilton,Perciel,Rashaund,1/10/1992,,Male,"Black, non-Hispanic/Latino",Injury,,Crowbar,,,,Yes,,,,Aggravated assault/battery,,,yes
+8/20/2014 17:25:56,LM27,Freeman,Anthony,A.,7/6/1965,,Male,"Black, non-Hispanic/Latino",No injuries,Port St. Lucie,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Dropped,,no
+9/12/2014 15:29:35,KL35,Haulotte,John,K,5/1/1988,23,Male,White,Injury,,UNARMED,,,,,,some type of hallucinogenic,,"Resisting a police officer w/out violence, escape while in lawful custody",Convicted,,yes
+9/19/2014 16:00:47,LM73,Hay,Broderick,Fernando,6/19/1958,50,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+8/22/2014 15:24:57,LM33,Garczynski Jr.,John,T.,6/12/1967,37,Male,White,Fatal,Boca Raton,Handgun,,Yes,,,,,,,,,no
+8/29/2014 16:45:55,KL28,Heffernan ,Justin Jr.,Lawrence,8/3/1992,19,Male,White,Injury,Lantana,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, reckless driving, grand theft",Convicted,,yes
+8/20/2014 17:50:36,LM28,Henry,Manu,H.,9/16/1977,27,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,UNARMED,,,,,,,,,,,yes
+4/15/2015 14:29:03,KL70,Gibson,Reginald,Cornelius,4/2/1987,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Handgun,Yes,,,,,,,Robbery with firearm; Possession of a firearm,Convicted,,
+11/25/2014 17:07:09,LM112,Herrera,Samir,D.,10/12/1977,,Male,White,Injury,Miramar,Handgun,Yes,,,Yes,,,,,,,yes
+12/18/2014 15:45:11,KL68,Hill,Gregory,Vaughn,,30,Male,"Black, non-Hispanic/Latino",Fatal,Fort Pierce,Handgun,,,,Yes,,,,,,,yes
+9/25/2014 9:34:43,LM80,Gomez,Gleen,Dean,,21,Male,Hispanic/Latino,Fatal,Miami,Knife or sword,,Yes,,,,,,,,,no
+3/17/2015 17:15:39,LM166,Hollis,Gerald,J.,8/15/1969,,Male,"Black, non-Hispanic/Latino",Fatal,,Knife or sword,,,,Yes,,,,,,,yes
+8/22/2014 13:03:30,LM32,Grbic,Boris,N.,,50,Male,White,Fatal,Port St. Lucie,Handgun,Yes,Yes,Yes,Yes,,,,,,,no
+12/9/2014 16:08:19,LM129,Holman,Gregory,L.,9/21/1976,,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Vehicle,,,,,,,,Attempted murder,Pleaded to lesser crime,,yes
+9/16/2014 15:39:03,LM65,Horne,Alexander,,5/8/1989,,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,BB or toy gun,,,,,,,,Aggravated assault/battery,Convicted,,yes
+9/26/2014 15:01:19,KL51,Hunter,Allen,H,5/20/1965,44,Male,"Black, non-Hispanic/Latino",Fatal,Lantana,Reached for or grabbed officer's weapon,,,,Yes,Cocaine,,,,,,yes
+8/15/2014 14:56:28,KL17,Hunter Jr.,Morris,Lee,4/6/1964,,Male,White,Injury,Lake Worth,Vehicle,,,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+4/17/2015 23:16:08,KL74,Green,Byruss,Devaughn,10/12/1964,,Male,"Black, non-Hispanic/Latino",Fatal,Vero Beach,Knife or sword,,,,,,,,,,,
+8/2/2013 11:56:35,KL7,Hall,Gene,Autry,1/16/1988,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Vehicle,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery, Burglary, Grand Theft",Convicted,,no
+9/3/2014 15:10:42,LM44,Isaias-Magdaleno,Antonio,Gerardo,2/12/1985,21,Male,White,Fatal,Palm Springs,Handgun,Yes,,,,,,,,,,yes
+9/12/2014 15:38:49,LM56,Jackson,Andy,Lee,10/21/1985,,Male,"Black, non-Hispanic/Latino",Injury,Lantana,UNARMED,,,,,,,,,,,yes
+12/18/2013 13:18:34,DC2,Jackson Jr.,Robert,Louis,2/11/1989,,Male,"Black, non-Hispanic/Latino",Injury,Pompano Beach,Handgun,,,,Yes,,,,"Resisting a police officer w/out violence, Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer, Tampering with Evidence",,,yes
+9/19/2014 16:30:42,LM74,James,Alexander,C.,3/22/1992,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,yes
+10/15/2014 16:44:59,LM89,Jett,Joshua,,9/2/1986,,Male,White,Injury,,Vehicle,,,,Yes,,,,Aggravated assault/battery,,,yes
+4/16/2015 15:37:45,MM3,Hall,Torrance,M,9/10/1985,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,
+9/12/2014 16:58:29,KL36,Hatcher,Towond,Eugene,8/29/1986,,Male,"Black, non-Hispanic/Latino",No injuries,"Lawrenceville, GA",,,,,,,,,,,,no
+8/22/2014 11:07:48,KL20,Jolicoeur,Claude III,Devin,1/31/1995,17,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Handgun,,,,Yes,,,,,,,yes
+9/12/2014 12:09:30,LM53,Jones,Vernon,M.,2/5/1984,,Male,"Black, non-Hispanic/Latino",Fatal,Royal Palm Beach,"Fists, lawn ornament",,,,Yes,,,,,,,yes
+8/29/2014 13:02:33,LM39,Jones,Melvin,,3/1/1978,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Dropped,,yes
+3/16/2015 21:22:42,LM154,Jordan,Tracy,C.,6/27/1970,,Female,"Black, non-Hispanic/Latino",Injury,West Palm Beach,UNARMED,,,,,,,,,,,yes
+10/31/2014 13:36:01,LM96,Joseph,Lance,,7/26/1988,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,Yes,,,,,,,"Attempted murder, Aggravated assault/battery",,,yes
+10/30/2014 17:43:02,LM95,Joseph,Anesson,,,28,Male,"Black, non-Hispanic/Latino",Fatal,,UNARMED,,,,,,,,,,,yes
+4/13/2015 17:23:19,MM1,Hebert,Kenneth,Nelson,7/16/1961,,Male,White,Injury,Stuart,BB or toy gun,,,,Yes,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Convicted,,
+8/29/2014 16:53:24,KL28,Heffernan,Justin Sr. ,Lawrence,1/28/1976,,Male,White,No injuries,Lantana,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, grand theft, kidnapping",Dropped,,no
+8/25/2014 14:24:11,LM31,Lester,Allen,G.,2/26/1982,22,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,,yes
+12/11/2014 16:38:47,KL64,Levy,Barrington,,2/1/1986,18,Male,"Black, non-Hispanic/Latino",Injury,Fort Pierce,Handgun,,,,,,,,"Attempted murder, Carjacking with a firearm, shooting a police dog",Convicted,,yes
+8/15/2014 14:31:53,LM10,Lewis,Mark,E.,10/13/1968,31,Male,White,Fatal,Deerfield Beach,Handgun,,,,Yes,,,,,,,yes
+9/26/2014 11:00:30,KL48,Machado,Angel,,6/6/1989,,Male,White,Injury,Greenacres,UNARMED,,,,,,,,Conspiracy to commit home invasion,Convicted,,yes
+5/26/2014 16:43:05,KL12,Hernandez,Antonio,,8/23/1982,,Male,"Black, non-Hispanic/Latino",No injuries,Fort Pierce,Vehicle,,,,,,,,"Resisting a police officer w/out violence, Aggravated assault/battery, Fleeing/eluding a police officer, Driving under influence, driving with suspended license, open container in vehicle",,,no
+9/22/2014 16:33:19,LM77,Holliday,Javery,,,18,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,BB or toy gun,,,,,,,,,,,no
+9/12/2014 16:45:19,LM58,Holloman,Kristopher,J.,1/19/1987,,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,,,,Yes,,,,Aggravated assault/battery,Convicted,,no
+5/26/2014 12:07:25,KL9,Margolis,Marco,Robert,12/22/1970,,Male,White,Injury,Port St. Lucie,Vehicle,,,,Yes,,,,"Resisting a police officer w/out violence, Aggravated assault/battery, Fleeing/eluding a police officer, Trespassing, disturbing the peace, grand theft, driving with suspended license",,,yes
+8/2/2013 11:13:10,KL6,Martinez,Adalberto ,V,1/7/1981,,Male,Hispanic/Latino,Fatal,Palm Beach Gardens,Handgun,Yes,,,,"Cocaine, Opiates",,,,,,yes
+9/2/2014 19:06:10,LM43,Hutchins,Patrick,,4/20/1986,,Male,"Black, non-Hispanic/Latino",No injuries,,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,no
+11/4/2014 14:12:14,LM103,McCray,Moses,,11/18/1981,,Male,"Black, non-Hispanic/Latino",Injury,,"Handgun, Vehicle",,,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+9/12/2014 16:25:09,LM57,McCullough,Tavaris,Jermaine,4/25/1986,,Male,"Black, non-Hispanic/Latino",Fatal,,Handgun,,,,,"Alcohol, Methamphetamine",,,,,,yes
+9/24/2014 14:44:07,KL44,Hutton,Jeremy,,,17,Male,White,Injury,Acreage,Vehicle,,,,,,,,,,,no
+12/8/2014 17:34:23,LM123,Miller,Jerrod,Tramine,,16,Male,"Black, non-Hispanic/Latino",Fatal,Delray Beach,Vehicle,,,,,,,,,,,yes
+8/22/2014 17:24:44,LM35,Monroe,Dexter,Eugene,,23,Male,"Black, non-Hispanic/Latino",Fatal,,Handgun,,,,,,,,,,,yes
+9/26/2014 14:34:38,KL50,Montero,Richard,,9/3/1965,44,Male,White,Fatal,West Palm Beach,Fought with officers,,,,,,,,,,,yes
+8/19/2014 15:03:21,LM20,Monty,Paul,D.,7/24/1969,34,Male,White,Injury,Wellington,UNARMED,,,,Yes,,,,,,,yes
+9/22/2014 16:33:26,LM77,Mortin,Derrick,Antonio,5/28/1990,18,Male,"Black, non-Hispanic/Latino",Injury,Mangonia Park,UNARMED,,,,,,,,,,,yes
+12/12/2014 17:43:37,KL67,Mosley,Simon,P,10/9/1970,29,Male,"Black, non-Hispanic/Latino",Injury,Belle Glade,ATV,,,,,,,,"Attempted murder, Aggravated assault/battery",,,yes
+9/26/2014 15:54:53,LM84,Murray,Jamil,Ramon,6/30/1981,,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Knife or sword,,,,,,,,,,,yes
+4/15/2015 14:14:19,MM2,Jackson,Anthony,Maurice,11/25/1971,,Male,"Black, non-Hispanic/Latino",Injury,Pompano Beach,Handgun,,,,,,,,BRANDISHING OF A FIREARM DURING AND IN RELATION TO A DRUG TRAFFICKING CRIME,Convicted,,
+12/5/2013 11:59:57,DC1,Johnson,Marvin,Tristan,4/5/1990,,Male,"Black, non-Hispanic/Latino",No injuries,Boynton Beach,"Knife or sword, Vehicle",,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,no
+9/16/2014 13:01:23,LM64,Johnson,Michael,Bernard,10/18/1986,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",,,no
+8/29/2014 15:32:27,KL27,Neloms III,Marcus,Lee,,28,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,"Handgun, Knife or sword",Yes,,,,,,,,,,yes
+4/12/2015 16:24:46,JE01,Key,Arthur,L,2/12/1981,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach ,Handgun,,,,Yes,,,,"Aggravated assault/battery, possession of a firearm by a convicted felon",,,no
+9/5/2014 18:22:01,KL32,Norton,Michael,Lee,1/31/1988,23,Male,White,Injury,,UNARMED,,,,,,,,"home invasion, burglary, kidnapping",Convicted,,yes
+9/18/2014 16:09:31,LM69,Lee,Kathy,,11/30/1961,,Female,"Black, non-Hispanic/Latino",Injury,Deerfield Beach,UNARMED,,,,,,,,,,,no
+12/5/2014 15:46:26,KL61,Pablo,Francisco,,1/1/1990,,Male,Hispanic/Latino,No injuries,Indiantown,,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery",Convicted,,yes
+3/17/2015 13:35:49,LM159,Magdaleno,Antonio,G.,2/12/1985,,Male,White,No injuries,,Vehicle,,,,,,,,Fleeing/eluding a police officer,,,no
+9/12/2014 17:18:47,KL37,Pacifici,Susan,Jayne,7/25/1960,50,Female,White,Injury,Port St. Lucie,Handgun,,Yes,,,,,,"Aggravated assault/battery, discharging a firearm in public",Dropped,,yes
+12/9/2014 15:20:07,LM128,Palmer Jr.,Daniel,R.,8/8/1977,,Male,White,Fatal,Lake Worth,Handgun,,Yes,,Yes,,,,,,,yes
+12/4/2014 18:04:24,LM120,Maldonado,Salvadore,,10/27/1980,,Male,Hispanic/Latino,Injury,,Reached for or grabbed officer's weapon,,,,Yes,,,,Resisting a police officer w/violence,Convicted,,no
+9/22/2014 17:58:19,LM79,Maldonado,Cesar,Domingo,,22,Male,Hispanic/Latino,Fatal,Lake Worth,UNARMED,,,,,,,,,,,no
+10/20/2014 17:24:59,LM91,Perez-Leon,Byron,E.,,21,Male,Hispanic/Latino,Injury,Lake Worth,Handgun,,,,,,Alcohol,,,,,yes
+12/4/2014 16:22:26,KL58,Perry,Raymond ,,3/12/1975,,Male,White,Injury,Plantation,Vehicle,,,,Yes,,,yes,Grand Theft Auto,Dropped,,yes
+4/17/2015 13:57:37,MM5,Mann,Martin,T,8/1/1959,,Male,White,No injuries,Greenacres,Handgun,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery, Fleeing/eluding a police officer",,,
+9/19/2014 15:05:54,LM72,Phillips,Adam,,12/21/1977,30,Male,White,Fatal,,UNARMED,,,Yes,Yes,,,,,,,yes
+3/16/2015 17:11:45,LM146,Mastics,George,,,,Male,,,,,,,,,,,,,,Yes,no
+12/4/2014 16:15:12,LM118,Pineda,Jaime,,11/18/1986,,Male,White,Injury,Greenacres,Handgun,,,,,,Alcohol,,,,,yes
+8/19/2014 16:29:56,LM21,Pledger,Charles,L.,9/4/1980,23,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,Yes,,,,"Attempted murder, Aggravated assault/battery",Acquitted,,yes
+10/31/2014 16:20:45,LM98,Polen,Dimetri,Deion,10/6/1989,,Male,"Black, non-Hispanic/Latino",Fatal,,Rifle,,,,,"Marijuana, Prescription drugs",,,,,,yes
+1/14/2015 17:57:25,LM132,Pollow,Matthew,Troy,3/23/1986,,Male,White,Fatal,Boca Raton,Screwdriver,,,Yes,Yes,,,,,,,yes
+9/19/2014 10:28:54,KL39,Mila,Jean,C.,12/27/1983,,Male,"Black, non-Hispanic/Latino",No injuries,Belle Glade,Handgun,Yes,,,Yes,,,,Discharging a firearm from a vehicle,Convicted,,no
+4/17/2015 12:46:22,MM4,Moore,David,L,2/16/1975,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,UNARMED,,,,,,,,,,,
+6/14/2013 16:57:24,KL5,NA,NA,,NA,NA,NA,NA,,NA,,,,,,,,,,,,no
+8/9/2013 17:32:28,LM9,Rawls,Darlene,Anita,10/14/1970,,Female,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",,,yes
+8/15/2014 17:28:08,KL18,Rhodes,Daniel,Lee,5/9/1963,49,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Knife or sword,,,,Yes,,,,,,,yes
+6/14/2013 16:19:46,KL4,NA,NA,,NA,NA,NA,NA,,NA,,,,,,,,,,,,no
+6/14/2013 16:08:45,KL3,NA,NA,,NA,NA,NA,NA,,NA,,,,,,,,,,,,no
+9/15/2014 16:50:02,LM60,Niellas,Vladimir,Bernal,1/6/1962,,Male,Hispanic/Latino,Fatal,West Palm Beach,Knife or sword,,,Yes,Yes,,,,,,,no
+9/12/2014 14:08:42,KL34,Robinson,Robert,Timothy,9/19/1991,,Male,"Black, non-Hispanic/Latino",Injury,Riviera Beach,Handgun,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer, carjacking; felon in possession of firearm",Convicted,,yes
+8/29/2014 12:28:18,LM38,Rock,Dennis,Keith,3/17/1968,,Male,White,Injury,Okeechobee,Rifle,,,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+4/15/2015 14:03:48,KL69,No subject,No subject,,,,,,,,,,,,,,,,,,,
+9/26/2014 10:52:10,KL48,Rosario,Ramon,,7/5/1992,17,Male,White,Injury,Lake Worth,Handgun,Yes,,,Yes,,,,"Aggravated assault/battery, grand theft auto, conspiracy to commit home invasion, possession of firearm by convicted felon",Convicted,,yes
+12/29/2014 14:13:49,LM131,Oser,Steven,,10/11/1962,,Male,White,No injuries,West Palm Beach,Hammer,,,,Yes,,,,,,,no
+12/9/2014 14:44:11,LM127,Royal,Frederick,Jamal,5/10/1978,,Male,"Black, non-Hispanic/Latino",Injury,Belle Glade,Knife or sword,,,,Yes,,,,,,,yes
+8/29/2014 14:37:09,KL26,Sahakian,Leon,A,10/23/1961,50,Male,White,Fatal,Palm Beach Gardens,Knife or sword,,Yes,,Yes,,,,,,,yes
+12/5/2014 15:39:34,KL61,Pablo,Miguel,,5/29/1987,,Male,Hispanic/Latino,Fatal,Indiantown,,,,,,Alcohol,,,,,,no
+12/1/2014 17:41:32,LM115,Perez,Angelo,,7/8/1972,,Male,White,No injuries,,Vehicle,,,,Yes,,,,,,,no
+9/22/2014 17:28:48,LM78,Perez-Alonso,Carlos,Javier,,32,Male,Hispanic/Latino,Fatal,Fort Pierce,"BB or toy gun, Knife or sword",Yes,,,,,,,,,,no
+9/26/2014 11:23:25,KL49,Perry,Marcus,,7/13/1990,,Male,"Black, non-Hispanic/Latino",No injuries,Royal Palm Beach,Handgun,Yes,,,Yes,,,,,,,no
+4/17/2015 23:49:03,KL75,Perry,Gene,A,9/18/1945,,Male,"Black, non-Hispanic/Latino",No injuries,Vero Beach,Handgun,,,,,,,,"Resisting a police officer w/out violence, Aggravated assault/battery, dui, carry concealed weeapon",,,
+12/5/2014 15:21:22,KL60,Scales,Stacey,Lee,,32,Male,"Black, non-Hispanic/Latino",Fatal,Indiantown,Vehicle,,,,,Cocaine,,,,,,yes
+7/15/2013 18:22:33,LM5,Scheetz,Mellow,D.,10/1/1977,,Female,White,Injury,,NA,,,,,,,,,,,yes
+3/18/2015 12:35:43,LM168,Shatara,Khamis,,7/17/1993,,Male,White,Fatal,Delray Beach,,,,,Yes,,,,,,,yes
+9/19/2014 11:14:32,KL40,Pierre,Ralph,,12/7/1988,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Handgun,,,,,,,,improper exhibition of firearm; felon in possession of firearm,Convicted,,no
+7/15/2013 18:51:56,LM5,Rahming,Derrick,A.,7/2/1980,,Male,"Black, non-Hispanic/Latino",No injuries,,NA,,,,,,,,,,,no
+8/19/2014 14:18:08,LM19,Skwierc,Christopher,,12/31/1984,18,Male,White,Fatal,Lake Park,BB or toy gun,,,Yes,,Alcohol,,,,,,yes
+11/25/2014 15:24:28,LM109,Smalls,Dimitri,Delarius,5/23/1992,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,,,,Yes,,,,Resisting a police officer w/out violence,Dropped,,yes
+5/26/2014 14:30:05,KL10,Smith,Chad,,8/14/1969,,Male,"Black, non-Hispanic/Latino",Injury,Chicago,Handgun,,,,Yes,,,,Aggravated assault/battery,Pleaded to lesser crime,,yes
+6/14/2013 15:50:59,KL2,Smith,Clayton,,6/29/1986,16,Male,"Black, non-Hispanic/Latino",Injury,Fort Lauderdale,Vehicle,,,,,,,,"Resisting a police officer w/out violence, Fleeing/eluding a police officer, leaving the scene of an accident w/ property damage, reckless driving",,,yes
+9/15/2014 16:14:58,LM59,Soberon,Arthur,G.,9/6/1982,,Male,White,Injury,West Palm Beach,Knife or sword,,Yes,,Yes,,,,Aggravated assault/battery,Convicted,,yes
+3/16/2015 20:51:31,LM151,Speranzella,Steven,,10/19/1950,,Male,White,Fatal,Boynton Beach,Handgun,,Yes,,,,,,Aggravated assault/battery,Dropped,,yes
+11/24/2014 18:37:14,LM106,Squire,Nicholas,A.,3/25/1990,,Male,White,Injury,,Knife or sword,,Yes,,,,,,Aggravated assault/battery,,,yes
+11/3/2014 18:51:13,LM101,Stephens,Dontrell,,4/20/1993,,Male,"Black, non-Hispanic/Latino",Injury,,UNARMED,,,,Yes,,,,Failure to obey a lawful order,,,yes
+12/8/2014 18:38:22,LM124,Stevens,Paul,E.,2/13/1983,,Male,"Black, non-Hispanic/Latino",Injury,,UNARMED,,,,Yes,,,,,,,yes
+9/26/2014 16:37:15,KL54,Raja,Adnan,,,,Male,Asian,Injury,,Handgun,,,,,,,,,,Yes,no
+12/18/2013 17:15:19,DC3,Steward,Sagon,Mickletoe,5/12/1988,,Male,"Black, non-Hispanic/Latino",Injury,West Palm Beach,Handgun,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery, Fleeing/eluding a police officer, Armed Robbery",Dropped,,yes
+10/15/2014 15:46:08,LM88,Stuckey,Ira,Joe,5/11/1984,,Male,"Black, non-Hispanic/Latino",Injury,,UNARMED,,,,,,,,,,,yes
+9/9/2014 19:21:35,LM49,Thevenin,Richard,,8/10/1978,,Male,"Black, non-Hispanic/Latino",Injury,,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,yes
+9/5/2014 15:16:18,KL29,Thompson,Christopher,,8/19/1993,18,Male,White,Fatal,Palm Springs,Rifle,Yes,Yes,,,,,,,,,yes
+9/17/2014 18:25:44,LM68,Ramos,Marino,Sarbelio,8/3/1972,35,Male,Hispanic/Latino,Fatal,West Palm Beach,UNARMED,,,,,,,,,,,no
+12/11/2014 17:43:51,KL65,Tompkins,Nathan,Ramon,,35,Male,,Fatal,Unknown,,,,,Yes,,,,,,,yes
+12/4/2014 16:21:22,KL58,Treman,Brian,,11/5/1975,,Male,White,Fatal,Pompano Beach,Vehicle,,,,Yes,,,,,,,yes
+4/17/2015 18:32:10,MM6,Ramos,Giovany,,1/9/1990,,Male,Hispanic/Latino,No injuries,,Vehicle,,,,,,,,Attempted murder,Convicted,,
+12/4/2014 17:20:56,KL59,Tuhey,Glenn,S,2/27/1974,,Male,White,Injury,Stuart,Vehicle,,,,,,,,"Fleeing/eluding a police officer, Robbery by sudden snatching, Tampering with physical evidence, Petit Theft, reckless driving, leaving scene of crash with injury",Convicted,,yes
+10/30/2014 17:11:00,LM94,Ribeiro,Anthony,Charles,2/27/1966,,Male,White,Injury,Boca Raton,Bottle,,,,Yes,,Alcohol,,Aggravated assault/battery,,,no
+9/12/2014 17:50:51,KL38,Richards,Albert,Demarcus,4/17/1990,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,,,,,,,,,Possession of Cocaine,Convicted,,no
+4/17/2015 19:10:58,MM7,Ripma,Gordon,Russell,3/18/1986,,Male,White,No injuries,Tequesta,Reached for or grabbed officer's weapon,,,,,,,,"Resisting a police officer w/violence, Aggravated assault/battery",,,
+9/26/2014 14:38:01,LM83,Rives,William,Roe,9/19/1946,,Male,White,No injuries,Lake Harbor,Handgun,Yes,,,,,,,Attempted murder,Dropped,,no
+3/16/2015 8:45:09,LM136,Rodriguez,Luis,Paul,,52,Male,Hispanic/Latino,No injuries,West Palm Beach,Handgun,,Yes,,,,,,,,,no
+12/4/2014 15:29:55,LM117,Velasquez,Alfonzo,,5/1/1972,,Male,White,Injury,Lake Worth,Knife or sword,,,,,,,,,,,yes
+10/15/2014 15:10:35,LM87,Rossi,David,P.,10/23/1967,,Male,White,No injuries,West Palm Beach,Vehicle,,,,Yes,,,,,,,no
+12/4/2014 14:36:12,KL57,Vierow,Gary,James,,43,Male,,Fatal,Jensen Beach,,,,Yes,Yes,Marijuana,,,,,,yes
+8/21/2014 14:40:57,LM29,Sanchez,Rodolfo,J.,7/4/1958,46,Male,Hispanic/Latino,No injuries,Lake Worth,Vehicle,,,,,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Dropped,,no
+8/18/2014 18:26:41,LM16,Sanchez,Wilmer,,,43,Male,White,Fatal,Lake Worth,Handgun,,Yes,,Yes,,,,,,,no
+9/18/2014 18:17:35,LM71,Voltz,Edward,F.,7/28/1957,,Male,White,Injury,Loxahatchee,Rifle,,,,,,,,Attempted murder,Convicted,,yes
+9/26/2014 15:32:46,KL52,Santiago,Alexi,,10/6/1984,,Male,Hispanic/Latino,No injuries,West Palm Beach,UNARMED,,,,,,,,,,,no
+9/3/2014 18:16:47,LM45,Wallace,Russell,,7/21/1970,,Male,White,Fatal,,Reached for or grabbed officer's weapon,,,,Yes,Cocaine,,,,,,yes
+5/30/2013 18:46:39,LM1,Wallace,Calvin,,5/20/1960,,Male,"Black, non-Hispanic/Latino",Fatal,Boynton Beach,Handgun,Yes,,,,,,,,,,yes
+8/29/2014 11:27:49,KL24,Wallach,Michael,James,9/14/1989,22,Male,White,Injury,West Palm Beach,Handgun,Yes,,,Yes,,,,"Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer, home invasion w firearm, burglary w firearm,  felon in possession of firearm",,,yes
+9/2/2014 18:18:30,LM40,Washington,Chester,Otis,10/27/1976,29,Male,"Black, non-Hispanic/Latino",Fatal,Jupiter,UNARMED,,,,Yes,"Alcohol, Cocaine",,,,,,yes
+8/15/2014 17:34:29,LM13,Wegrich,John,A.,3/26/1947,54,Male,White,Fatal,West Palm Beach,BB or toy gun,,,,Yes,,,,,,,yes
+9/10/2014 16:58:31,LM52,Weiland,Christopher,J.,10/11/1954,52,Male,White,Injury,Boynton Beach,Shotgun,,,,Yes,,,,Attempted murder,Acquitted,,yes
+3/16/2015 18:31:48,LM150,Santiago,Jerickson,V.,11/16/1981,,Male,Hispanic/Latino,No injuries,West Palm Beach,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",,,no
+8/20/2014 15:47:15,LM25,Whitefield,Preston,,3/2/1987,17,Male,White,Injury,Lake Park,Vehicle,,,,,,,,Aggravated assault/battery,Convicted,,yes
+10/30/2014 15:27:40,LM93,Williams,Tinoris,T.,11/6/1982,,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Reached for or grabbed officer's weapon,,,Yes,Yes,,,,,,,yes
+9/19/2014 16:53:49,LM75,Williams,Dijon,,4/19/1985,,Male,"Black, non-Hispanic/Latino",Fatal,Riviera Beach,Handgun,,,,Yes,,,,,,,yes
+8/15/2014 18:26:48,LM14,Wilson,Herbert,,1/3/1970,32,Male,"Black, non-Hispanic/Latino",Injury,Belle Glade,UNARMED,,,,Yes,,,,,,,yes
+7/12/2013 18:16:40,LM4,Wilson,Tarvis,Merrell,4/2/1987,,Male,"Black, non-Hispanic/Latino",Injury,,Handgun,Yes,,,,,,,"Resisting a police officer w/violence, Attempted murder, Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,yes
+9/8/2014 17:20:40,LM46,Saulsby,Jenard,Corey,11/11/1990,,Male,"Black, non-Hispanic/Latino",No injuries,Riviera Beach,Handgun,,,,Yes,,,,Aggravated assault/battery,Convicted,,no
+4/13/2015 15:32:04,MQ1,Daughtry,Keith,,11/12/1980,19,Male,"Black, non-Hispanic/Latino",Fatal,Ft. Pierce,Reached for or grabbed officer's weapon,,,,Yes,,,,Battery on a law enforcement officer,Dropped,,yes
+4/13/2015 16:12:43,MQ2,Brown,Anthony,L.,9/13/1974,39,Male,"Black, non-Hispanic/Latino",Fatal,West Palm Beach,Handgun,Yes,,,Yes,,,,,,,yes
+10/14/2014 17:18:51,LM85,Shukas,Charles,W.,10/8/1982,,Male,White,No injuries,Lantana,UNARMED,,,,Yes,,,,,,,no
+4/15/2015 12:39:22,MQ3,Donohue,Adam,Christian,7/13/1992,20,Male,,Fatal,Boca Raton,,,,,,,,,,,,yes
+3/17/2015 14:47:16,LM161,Simon,Rashard,R.,6/2/1982,,Male,"Black, non-Hispanic/Latino",No injuries,West Palm Beach,Vehicle,,,,,,,,Aggravated assault/battery,Dropped,,no
+4/15/2015 14:11:31,MM2,Singletary,Michael,A,12/20/1986,,Male,"Black, non-Hispanic/Latino",Injury,Pompano Beach,Handgun,,,,,,,,BRANDISHING OF A FIREARM DURING AND IN RELATION TO A DRUG TRAFFICKING CRIME,Convicted,,
+3/16/2015 9:13:53,LM138,Steward,Marcus,,,,Male,"Black, non-Hispanic/Latino",No injuries,Riviera Beach,Handgun,,,,,,,,,,,no
+9/26/2014 17:31:46,KL56,Tisdale,Eriese,A,,,Male,"Black, non-Hispanic/Latino",No injuries,Port St. Lucie,Handgun,Yes,,,,,,,Murder,,,no
+7/12/2013 16:14:18,LM3,Troutman,Reggie,Devar,12/11/1985,,Male,"Black, non-Hispanic/Latino",No injuries,Ft. Lauderdale,UNARMED,,,,Yes,,,,"Resisting a police officer w/violence, Resisting a police officer w/out violence, Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,no
+9/24/2014 12:42:30,KL43,unknown,unknown,,,,Male,NA,Injury,NA,NA,,,,,,,,,,,
+9/19/2014 11:23:41,KL41,unknown,unknown,,,,,,,,,,,,,,,,,,,
+9/5/2014 16:26:09,KL31,Unknown,Unknown,,2/12/2011,,Male,"Black, non-Hispanic/Latino",No injuries,unknown,Handgun,,,,,,,,,,,
+9/5/2014 15:28:03,KL30,Unknown,Unknown,,,,NA,NA,NA,NA,Vehicle,,,,,,,,,,,
+4/12/2015 16:52:44,JE02,Unknown,Unknown,,,,Male,"Black, non-Hispanic/Latino",,,Handgun,,,,,,,,,,,
+9/9/2014 13:41:51,LM47,Vest,Katie,Lee,9/30/1981,,Female,White,No injuries,,Vehicle,,,,Yes,,,,"Aggravated assault/battery, Fleeing/eluding a police officer",Convicted,,no
+9/15/2014 17:54:38,LM61,Vilsaint,Jacquelin,,4/20/1989,,Male,"Black, non-Hispanic/Latino",No injuries,,Handgun,Yes,,,Yes,,,,,,,no
+8/20/2014 15:22:47,LM24,Vitt,Gary,Lee,11/17/1959,44,Male,,Fatal,Belleview,Handgun,,,,,,,,,,,no
+12/9/2014 12:30:00,LM126,Vosburgh,William,,1/1/1956,46,Male,,Fatal,Connecticut,UNARMED,,,,,,,,,,,no
+4/15/2015 14:32:28,KL70,Walker,Jartarus,L,4/14/1987,,Male,"Black, non-Hispanic/Latino",No injuries,Greenacres,Handgun,,,,,,,,Robbery with firearm,Convicted,,
+9/2/2014 15:43:39,LM42,White,Shirley,,,53,Female,NA,Injury,Margate,UNARMED,,,,,,,,,,,no
+8/15/2014 17:03:28,LM12,Young,Michael,O.,10/14/1960,41,Male,,Fatal,Lantana,"Handgun, fake pipe bomb",Yes,,,,,,,,,,no
