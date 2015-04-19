@@ -168,4 +168,19 @@ select {
 
 #subjectfilters{
   background-color: #F6F1ED;
+  padding-bottom: 40px;
+}
+.progress.container {
+  padding: 0;
+  position: relative;
+}
+.progress p{
+  text-align: right;
+  padding-right: 10px;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+}
+.progress-bar{
+  background-color: coral;
 }
