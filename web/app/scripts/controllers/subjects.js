@@ -9,6 +9,9 @@
  */
 angular.module('webApp')
   .controller('SubjectsCtrl', function ($scope, $location, dataFactory) {
+
+    $scope.dataset = dataFactory.getDataset($scope.selections);
+
     $scope.selections={};
 
     var defaultval = "-All-";
@@ -23,9 +26,7 @@ angular.module('webApp')
     $scope.selections.incidentCity = defaultval;
     $scope.selections = _.extend($scope.selections,$location.search());
     
-    $scope.dataset = dataFactory.getFilteredDataset($scope.selections);
-
-
+    dataFactory.setFilters($scope.selections);
     $scope.ranges = dataFactory.getFilterRanges();
 
 

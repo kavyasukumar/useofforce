@@ -9,16 +9,27 @@
  */
 angular.module('webApp')
   .factory('dataFactory', function ($http) {
-     var dataset = { incidents:null, subjects:null};
+     var dataset = { 
+      incidents:null,
+      subjects:null,
+      totalSubjects: 0,
+      filteredSubject: 0,
+      totalIncidents: 0,
+      filteredIncidents : 0
+    };
      var agencies = null;
      var filterRanges ={};
      var dataService = {};
+     var dataReady = false;
+     var currFilters ={};
 
      $http.get("data/incidents.json").success(function (data, status, headers, config) {
         dataset.incidents = data;
+        dataset.totalIncidents = data.length;
         // get subjects
         $http.get("data/subjects.json").success(function (data, status, headers, config) {
           dataset.subjects = data;
+          dataset.totalSubjects = data.length;
 
           // get agencies
           $http.get("data/agencies.json").success(function (data, status, headers, config) {
@@ -37,6 +48,8 @@ angular.module('webApp')
             });
 
             setFilterRanges();
+            dataReady = true;
+            filterData();
           });
         });
       });
@@ -86,10 +99,72 @@ angular.module('webApp')
         }
      }
 
+     function resetFilters(){
+      for(var i=0;i< dataset.subjects.length;i++){
+          dataset.subjects[i].filterPass=true;
+        }
+        dataset.subects = _.sortBy(dataset.subjects,function(d){ return d.sortOrder;});
+     }
+
+     function filterData(){
+      if(!dataReady){
+        return;
+      }
+      resetFilters();
+      filterSubjects();
+    }
+
+    function filterSubjects(){
+      var defaultRangeVal ='-All-';
+      // rewrite this
+      for(var i=0;i<dataset.subjects.length;i++){
+        var pass = true;
+        var d = dataset.subjects[i];
+        if(currFilters.gender!=defaultRangeVal && d.gender!=currFilters.gender){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+        if(currFilters.ethnicity!=defaultRangeVal && d.ethnicity!=currFilters.ethnicity){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+        if(currFilters.injuryLevel!=defaultRangeVal && d.injuryLevel!=currFilters.injuryLevel){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+        if(currFilters.shotAtPolice!=defaultRangeVal && d.shotAtPolice!=currFilters.shotAtPolice){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+        if(currFilters.incidentCity!=defaultRangeVal && d.incidentCity!=currFilters.incidentCity){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+        if(currFilters.year!=defaultRangeVal && new Date(d.date).getFullYear()!=currFilters.year){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+        if(currFilters.agencies!=defaultRangeVal && !_.contains(d.agencies,currFilters.agencies)){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+        if(currFilters.weapons!=defaultRangeVal && !_.contains(d.weapons,currFilters.weapons)){
+          dataset.subjects[i].filterPass = false;
+          continue;
+        }
+      }
+      dataset.filteredSubject = _.where(dataset.subjects,{filterPass:true}).length;
+    }
+
      // Public members
-     dataService.getFilteredDataset = function(currentSelection){
+     dataService.getDataset = function(){
       return dataset;
      }
+
+     dataService.setFilters = function(criteria){
+        currFilters = criteria;
+        filterData();
+      }
 
      dataService.getFilterRanges = function (){
        return filterRanges;
