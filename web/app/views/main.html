@@ -54,7 +54,7 @@
 		</div>
 	</section>
 	<section id="iconarea">
-		<span class="iconholder" ng-repeat='subject in subjects.data'>
+		<span class="iconholder" ng-repeat='subject in dataset.subjects'>
 			<img src="/images/{{subject.gender}}.png" class="pplicon" ng-class="{'faded':!subject.filterPass}"/>
 		</span>
 	</section>

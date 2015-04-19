@@ -8,14 +8,11 @@
  * Controller of the webApp
  */
 angular.module('webApp')
-  .controller('SubjectsCtrl', function ($scope, $location, subjects, incidents) {
-    $scope.subjects = subjects.getList();
-    $scope.incidents = incidents.getList();
-
-    $scope.ranges = subjects.getRanges();
-
+  .controller('SubjectsCtrl', function ($scope, $location, dataFactory) {
     $scope.selections={};
+
     var defaultval = "-All-";
+
     $scope.selections.gender=defaultval;
     $scope.selections.ethnicity = defaultval;
     $scope.selections.injuryLevel = defaultval;
@@ -25,14 +22,17 @@ angular.module('webApp')
     $scope.selections.agencies = defaultval;
     $scope.selections.incidentCity = defaultval;
     $scope.selections = _.extend($scope.selections,$location.search());
+    
+    $scope.dataset = dataFactory.getFilteredDataset($scope.selections);
 
-    subjects.setCriteria($scope.selections);
+
+    $scope.ranges = dataFactory.getFilterRanges();
 
 
     $scope.update = function(){
         $location.search(getNonDefaultSelections());
-        subjects.filterList($scope.selections);
-        incidents.filterList(_.where($scope.subjects.data,{'filterPass':true}));
+        //subjects.filterList($scope.selections);
+        //incidents.filterList(_.where($scope.subjects.data,{'filterPass':true}));
     }
 
     
