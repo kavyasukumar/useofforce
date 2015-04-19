@@ -5,7 +5,7 @@
   background-color:#F6F1ED;
   background-image: url('../images/Lineoffirelogo.png');
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,6 +41,10 @@
 
 }
 
+.footer{
+  margin-top: 30px;
+}
+
 .pplicon{
   width:30px;
   height:auto;
@@ -72,6 +76,7 @@
   margin: auto;
   background-color:#ddd;
   position: relative;
+  padding:0;
 }
 #innerbar{
   background-color: coral;
@@ -89,6 +94,10 @@
 .stories{
   width:80%;
 }
+.stories a, .stories a:hover{
+  text-decoration: none;
+  color:initial;
+}
 
 .story{
   background-color: rgba(200,200,200,.15);
@@ -105,6 +114,7 @@
 }
 .story h2{
   font-size: 1.3em;
+  width: 80%;
 }
 .story img{
   min-width: 60px;
