@@ -27,7 +27,7 @@ angular.module('webApp')
             // merge all datasets
             _.each(dataset.incidents, function(incident, index){
               var subs = _.where(dataset.subjects,{'incidentId':incident.id});
-              var agncs = _.chain(agencies["LM33"]).pluck("agency").uniq().value();
+              var agncs = _.chain(agencies[incident.id]).pluck("agency").uniq().value();
 
               for(var i=0; i<subs.length;i++){
                 subs[i]['agencies']=_.clone(agncs);
@@ -36,30 +36,55 @@ angular.module('webApp')
               incident['agencies'] = _.clone(agncs);
             });
 
-            for (var prop in dataset.subjects[0]) {
-              if(dataset.subjects[0].hasOwnProperty(prop)){
-                filterRanges[prop] = _.chain(dataset.subjects)
-                        .pluck(prop)
-                        .uniq()
-                        .without("")
-                        .union(["-All-"])
-                        .value()
-                        .sort();
-              }
-
-              // change range for year of incident
-              filterRanges['year'] = _.chain(dataset.subjects)
-                        .pluck('date')
-                        .map(function (date, index){ return new Date(date).getFullYear();})
-                        .uniq()
-                        .without("")
-                        .union(["-All-"])
-                        .value()
-                        .sort();
-            }
+            setFilterRanges();
           });
         });
       });
+
+     function setFilterRanges(){
+      for (var prop in dataset.subjects[0]) {
+          if(dataset.subjects[0].hasOwnProperty(prop)){
+            filterRanges[prop] = _.chain(dataset.subjects)
+                    .pluck(prop)
+                    .uniq()
+                    .without("")
+                    .union(["-All-"])
+                    .value()
+                    .sort();
+          }
+
+          // change range for year of incident
+          filterRanges['year'] = _.chain(dataset.subjects)
+                    .pluck('date')
+                    .map(function (date, index){ return new Date(date).getFullYear();})
+                    .uniq()
+                    .without("")
+                    .union(["-All-"])
+                    .value()
+                    .sort();
+
+          // agencies
+          filterRanges['agencies'] = _.chain(dataset.subjects)
+                    .pluck('agencies')
+                    .flatten()
+                    .uniq()
+                    .without("")
+                    .union(["-All-"])
+                    .value()
+                    .sort();
+
+          // weapons
+          filterRanges['weapons'] = _.chain(dataset.subjects)
+                    .pluck('weapons')
+                    .flatten()
+                    .uniq()
+                    .without("")
+                    .union(["-All-"])
+                    .value()
+                    .sort();
+
+        }
+     }
 
      // Public members
      dataService.getFilteredDataset = function(currentSelection){
