@@ -26,8 +26,10 @@
 	<p>{{subjects.data.filteredLength}} / {{subjects.data.length}}</p>
 </div>
 <div class="stories container-fluid">
-	<div class="story" ng-repeat="incident in incidents.filtereddata">
-		<img ng-repeat="img in incident.imgnames" ng-src='./images/subjects/{{img}}' err-hide="true">
-		<h2>{{incident.hed}}</h2>
-	</div>
+	<a ng-repeat="incident in incidents.filtereddata" href="#/incident/{{incident.id}}">
+		<div class="story" >
+			<img ng-repeat="img in incident.imgnames" ng-src='./images/subjects/{{img}}' err-hide="true">
+			<h2>{{incident.hed}}</h2>
+		</div>
+	</a>
 </div>
