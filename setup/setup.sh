@@ -36,6 +36,12 @@ mysql -p$password policeshootings -e "LOAD DATA INFILE '$filepath/rawofficers.cs
 	OPTIONALLY ENCLOSED BY '\"'
 	IGNORE 1 LINES"
 
+mysql -p$password policeshootings -e "LOAD DATA INFILE '$filepath/agencyaltnames.csv'
+	INTO TABLE agencyaltnames
+	FIELDS TERMINATED BY ','
+	OPTIONALLY ENCLOSED BY '\"'
+	IGNORE 1 LINES"
+
 # normalize data into separate tables
 mysql -p$password policeshootings < ./sql/normalize.sql
 

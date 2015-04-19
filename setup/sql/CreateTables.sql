@@ -181,3 +181,9 @@ CREATE TABLE officerIncidentMap (
    rank varchar(255) DEFAULT NULL,
    wasOffDuty boolean DEFAULT NULL
 );
+
+DROP TABLE IF EXISTS agencyAltNames;
+CREATE TABLE agencyAltnames (
+  shortname varchar(255) NOT NULL,
+  officialname varchar(255) NOT NULL
+);
