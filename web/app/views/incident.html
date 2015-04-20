@@ -2,24 +2,26 @@
 <section class="sidebar">
 	<div class="subject" ng-repeat="sub in incident.currIncident.subjects">
 		<img ng-src='./images/subjects/{{sub.imgName}}' err-hide="true"/>
-		<p class="prop sub">
-			<span class="propvalue name">{{sub.firstName}} {{sub.middleName}} {{sub.lastName}}</span>
-		</p>
-		<p class="prop sub">
-			<span class="proplabel"> Gender:</span>
-			<span class="propvalue">{{sub.gender}}</span>
-		</p>
-		<p class="prop sub">
-			<span class="proplabel"> Ethnicity:</span>
-			<span class="propvalue">{{sub.ethnicity}}</span>
-		</p>
-		<p class="prop sub">
-			<span class="proplabel"> Injury:</span>
-			<span class="propvalue">{{sub.injuryLevel}}</span>
-		</p>
+		<section id="sidebarprops">
+			<p class="prop sub">
+				<span class="propvalue name">{{sub.firstName}} {{sub.middleName}} {{sub.lastName}}</span>
+			</p>
+			<p class="prop sub">
+				<span class="proplabel"> Gender:</span>
+				<span class="propvalue">{{sub.gender}}</span>
+			</p>
+			<p class="prop sub">
+				<span class="proplabel"> Ethnicity:</span>
+				<span class="propvalue">{{sub.ethnicity}}</span>
+			</p>
+			<p class="prop sub">
+				<span class="proplabel"> Injury:</span>
+				<span class="propvalue">{{sub.injuryLevel}}</span>
+			</p>
+		</section>
 	</div>
 </section>
-<section class="container mainbar">
+<section class="mainbar">
 	<p class="prop main">
 		<span class="proplabel"> Date:</span>
 	 	<span class="propvalue">{{getDate(incident.currIncident.date) | date: 'MMM. dd, yyyy'}}</span>

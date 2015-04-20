@@ -55,6 +55,7 @@
   width:30px;
   height: 40px;
   display: inline-block;
+  cursor: pointer;
 }
 
 #iconarea{
@@ -64,10 +65,6 @@
 .faded{
   opacity: .3;
   width: 20px;
- /*   -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;*/
 }
 #statusbar{
   height: 30px;
@@ -101,10 +98,10 @@
 .story{
   background-color: rgba(200,200,200,.4);
   margin: 10px 0;
-  padding: 5px;
-  padding-left: 15px;
   border: 1px solid white;
   cursor: pointer;
+  
+  min-height: 55px;
 }
 .story:hover{
   border:1px solid #C53B3B;
@@ -116,12 +113,17 @@
   font-size: 1.2em;
   text-transform: none;
   text-transform: initial;
+  margin: 0;
+    display: inline-block;
+  padding-top: 20px;
+  padding-left: 5px;
 }
 .story img{
-  min-width: 60px;
-  width: 8%;
-  height: auto;
+  width: auto;
+  height: 60px;
   padding-right: 20px;
+   -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 #credits{
   list-style: none;
@@ -136,7 +138,6 @@
 .sidebar{
   width: 25%;
   display: inline-block;
-  min-width: 300px;
 }
 .sidebar img{
   margin: auto;
@@ -146,6 +147,7 @@
 .mainbar{
   display: inline-block;
   vertical-align: top;
+  width: 70%;
 }
 h1.storyhed{
   line-height: 30px;
@@ -234,11 +236,23 @@ a.storybtn, a.storybtn:hover{
 a#prev, a#next, a#home{
   font-size: 10px;
   display: inline-block;
+  position: absolute;
+}
+a#prev{
+  left:0;
+  top:0;
+}
+a#next{
+  right:0;
+  top:0;
 }
 a#home{
-    width: 70%;
+  width: 100%;
   text-align: center;
   display: inline-block;
+  position: relative;
+  margin:auto;
+
 }
 
 a#prev::after{
@@ -257,6 +271,7 @@ a#prev::after, a#next::before{
   width: 100%;
   height: 50px;
   margin-top: 50px;
+  position: relative;
 }
 .glyphicon{
   font-size: 3em;
@@ -281,4 +296,75 @@ a#prev::after, a#next::before{
   margin-bottom: 3%;
   letter-spacing: 2px;
   font-weight: 200;
+}
+
+@media only screen and (max-width: 767px) {
+  h1.storyhed{
+    margin: initial;
+    width:95%;
+    margin: auto;
+    font-size: 1.4em;
+  }
+  .sidebar{
+    width:90%;
+    margin-top: 20px;
+    margin: auto;
+  }
+  .prop.sub{
+    width: 100%;
+  }
+  .sidebar img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #sidebarprops{
+    display: inline-block;
+    width: 70%;
+  }
+  .subject{
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .mainbar{
+    display: block;
+  width: 75%;
+  margin: auto;
+  margin-top: 2%;
+  }
+  .prop.main .proplabel{
+
+  display: block;
+  }
+  #lede{
+    font-size: 1.2em;
+  }
+  .iconholder{
+    width: 20px;
+    height: 30px;
+  }
+  .pplicon{
+    width: 20px;
+    margin-bottom: 5px;
+  }
+  .pplicon.faded{
+    width: 15px;
+  }
+  .progress, #iconarea, #filterare{
+    width: 90%;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+    .sidebar img{
+    width: 80px;
+  }
+  .prop.sub{
+    padding: 0;
+  }
+  .iconholder {
+  height: 20px;
+  width: 15px;
+}
 }
