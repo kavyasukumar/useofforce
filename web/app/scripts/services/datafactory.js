@@ -155,7 +155,7 @@ angular.module('webApp')
           continue;
         }
       }
-      dataset.filteredSubjectCount = _.where(dataset.subjects,{filterPass:true}).length;
+      dataset.filteredSubjectsCount = _.where(dataset.subjects,{filterPass:true}).length;
     }
 
     function filterIncidents(){

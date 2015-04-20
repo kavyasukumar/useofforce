@@ -67,11 +67,10 @@
 </section>
 <section class="stories container">
 	<h2> Filtered incidents</h2>
-	<p> Now showing {{dataset.filteredIncidentsCount}} / {{dataset.totalIncidents}} 
-	<a ng-repeat="incident in dataset.filteredIncidents" href="#/incident/{{incident.id}}">
-		<div class="story" >
+	<p> Now showing {{dataset.filteredIncidentsCount}} / {{dataset.totalIncidents}} </p>
+		<div ng-repeat="incident in dataset.filteredIncidents" class="story" ng-click="go('/incident/{{incident.id}}')">
+			<h2>
 			<img ng-repeat="sub in incident.subjects" ng-src='./images/subjects/{{sub.imgName}}' err-hide="true"/>
-			<h2>{{incident.hed}}</h2>
+			{{incident.hed}}</h2>
 		</div>
-	</a>
 </section>

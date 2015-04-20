@@ -32,9 +32,11 @@ angular.module('webApp')
 
     $scope.update = function(){
         $location.search(getNonDefaultSelections());
-        //subjects.filterList($scope.selections);
-        //incidents.filterList(_.where($scope.subjects.data,{'filterPass':true}));
     }
+
+    $scope.go = function ( path ) {
+        $location.path( path );
+    };
 
     
     function getNonDefaultSelections(){
