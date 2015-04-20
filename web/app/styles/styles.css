@@ -114,6 +114,7 @@
 }
 .story h2{
   font-size: 1.2em;
+  text-transform: initial;
 }
 .story img{
   min-width: 60px;
@@ -154,6 +155,11 @@ h1.storyhed{
   margin-bottom: 20px;
   border-bottom: 1px solid coral;
 
+}
+h2{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
 
 select {
@@ -214,7 +220,7 @@ select {
   display: block;
   letter-spacing: 2px;
 }
-subject {
+.subject {
   padding-bottom: 20px;
   margin-bottom: 10px;
 }

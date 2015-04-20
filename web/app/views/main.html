@@ -13,7 +13,7 @@
 </section>
 <section id="subjectfilters">
 	<section id="filterarea" class="container">
-		<h2> Filter by subjects</h2>
+		<h2> Explore the data</h2>
 		<div class="row">
 			<span class="col-md-4">Gender : 
 				<select ng-model='selections.gender' ng-options="x as x for x in ranges.gender track by x" ng-change="update()">
@@ -66,7 +66,7 @@
 	</section>
 </section>
 <section class="stories container">
-	<h2> Filtered incidents</h2>
+	<h2> Incident Reports</h2>
 	<p> Now showing {{dataset.filteredIncidentsCount}} / {{dataset.totalIncidents}} </p>
 		<div ng-repeat="incident in dataset.filteredIncidents" class="story" ng-click="go('/incident/{{incident.id}}')">
 			<h2>
