@@ -8,9 +8,12 @@
  * Controller of the webApp
  */
 angular.module('webApp')
-  .controller('IncidentsCtrl', function ($scope, $location, $routeParams, dataFactory) {
+  .controller('IncidentsCtrl', function ($scope, $location, $routeParams, $anchorScroll, dataFactory) {
   	var incidentId = $routeParams.incidentId;
    	$scope.incident = dataFactory.getIncident(incidentId);
+
+   	$('#cover').height('20vh');
+   	$anchorScroll();
    	
    	$scope.getDate = function(datestr){
    		return new Date(datestr);

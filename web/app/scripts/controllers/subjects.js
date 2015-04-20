@@ -10,6 +10,7 @@
 angular.module('webApp')
   .controller('SubjectsCtrl', function ($scope, $location, dataFactory) {
 
+    $('#cover').height('50vh');
     $scope.dataset = dataFactory.getDataset($scope.selections);
 
     $scope.selections={};
