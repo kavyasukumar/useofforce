@@ -79,7 +79,7 @@
   padding:0;
 }
 #innerbar{
-  background-color: coral;
+  background-color: #C53B3B;
   height: 30px;
   display: inline-block;
 }
@@ -107,7 +107,7 @@
   border: 1px solid white;
 }
 .story:hover{
-  border:1px solid coral;
+  border:1px solid #C53B3B;
 }
 .story *{
   display: inline-block;
@@ -154,7 +154,7 @@ h1.storyhed{
   margin-right: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid coral;
+  border-bottom: 1px solid #C53B3B;
 
 }
 h2{
@@ -165,7 +165,7 @@ h2{
 
 select {
   margin: 10px;
-  color: cadetblue;
+  color: #046380;
   border:0;
   text-align: center;
 }
@@ -190,10 +190,10 @@ select {
   right: 0;
 }
 .progress-bar{
-  background-color: coral;
+  background-color: #C53B3B;
 }
 .main.prop .propvalue{
-  background: coral;
+  background: #C53B3B;
   margin-right: 10px;
   color: white;
   padding: 3px;
@@ -214,7 +214,7 @@ select {
 }
 
 .propvalue.name{
-  color:coral;
+  color:#C53B3B;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
@@ -227,4 +227,48 @@ select {
 }
 .summary{
   margin-top: 40px;
+}
+a.storybtn, a.storybtn:hover{
+  text-decoration: none;
+}
+a#next {
+  float: right;
+}
+a#prev {
+  float: left;
+}
+a#prev, a#next {
+  font-size: 10px;
+  display: inline-block;
+}
+
+a#prev::after{
+  content: 'PREV';
+}
+a#next::before{
+  content: 'NEXT';
+}
+a#prev::after, a#next::before{
+  color: #C53B3B;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  padding-top: 2px;
+}
+#btnarea{
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+.glyphicon{
+  font-size: 3em;
+  vertical-align: middle;
+  color: #C53B3B;
+}
+.header, .navbar{
+  background-color: #333;
+  border:0;
+}
+.navbar-brand > img {
+  display: block;
+  width: 250px;
 }
