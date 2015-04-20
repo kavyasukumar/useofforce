@@ -100,7 +100,7 @@
 }
 
 .story{
-  background-color: rgba(200,200,200,.15);
+  background-color: rgba(200,200,200,.4);
   margin: 10px 0;
   padding: 5px;
   padding-left: 15px;
@@ -114,6 +114,7 @@
 }
 .story h2{
   font-size: 1.2em;
+  text-transform: none;
   text-transform: initial;
 }
 .story img{
@@ -223,4 +224,7 @@ select {
 .subject {
   padding-bottom: 20px;
   margin-bottom: 10px;
+}
+.summary{
+  margin-top: 40px;
 }
