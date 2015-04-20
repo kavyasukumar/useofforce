@@ -35,6 +35,14 @@ angular.module('webApp')
         $location.search(getNonDefaultSelections());
     }
 
+    $scope.getBarWidth = function(){
+        if($scope.dataset && $scope.dataset.totalSubjects != 0)
+        {
+            return 100*$scope.dataset.filteredSubjectsCount/$scope.dataset.totalSubjects;
+        }
+        return 0;
+    }
+
     $scope.go = function ( path ) {
         $location.search([]);
         $location.path(path);

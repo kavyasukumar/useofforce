@@ -12,35 +12,35 @@
 	<section id="filterarea" class="container">
 		<h2> Explore the data</h2>
 		<div class="row">
-			<span class="col-md-4">Gender : 
+			<span class="col-md-4 col-xs-12 col-xs-12">Gender : 
 				<select ng-model='selections.gender' ng-options="x as x for x in ranges.gender track by x" ng-change="update()">
 				</select>
 			</span>
-			<span class="col-md-4">Ethnicity :
+			<span class="col-md-4 col-xs-12">Ethnicity :
 				<select ng-model='selections.ethnicity' ng-options="x as x for x in ranges.ethnicity track by x" ng-change="update()">
 				</select>
 			</span>
-			<span class="col-md-4">Injury level :
+			<span class="col-md-4 col-xs-12">Injury level :
 				<select ng-model='selections.injuryLevel' ng-options="x as x for x in ranges.injuryLevel track by x" ng-change="update()">
 				</select>
 			</span>
 		</div>
 		<div class="row">
-			<span class="col-md-8">Weapons :
+			<span class="col-md-8 col-xs-12">Weapons :
 				<select ng-model='selections.weapons' ng-options="x as x for x in ranges.weapons track by x" ng-change="update()">
 				</select>
 			</span>
-			<span class="col-md-4">Shot at Police? :
+			<span class="col-md-4 col-xs-12">Shot at Police? :
 				<select ng-model='selections.shotAtPolice' ng-options="x as x for x in ranges.shotAtPolice track by x" ng-change="update()">
 				</select>
 			</span>	
 		</div>	
 		<div class="row">
-			<span class="col-md-4">Year of incident :
+			<span class="col-md-4 col-xs-12">Year of incident :
 				<select ng-model='selections.year' ng-options="x as x for x in ranges.year track by x" ng-change="update()">
 				</select>
 			</span>
-			<span class="col-md-8">City :
+			<span class="col-md-8 col-xs-12">City :
 				<select ng-model='selections.incidentCity' ng-options="x as x for x in ranges.incidentCity track by x" ng-change="update()">
 				</select>
 			</span>
@@ -52,12 +52,12 @@
 	</section>
 
 	<div class="progress container">
-	  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{100*dataset.filteredSubjectsCount/dataset.totalSubjects}}%;">
+	  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{getBarWidth()}}%;">
 	  </div>
 	  <p>{{dataset.filteredSubjectsCount}} / {{dataset.totalSubjects}} </p>
 	</div>
 	<section id="iconarea">
-		<span class="iconholder" ng-repeat='subject in dataset.subjects'>
+		<span class="iconholder" ng-repeat='subject in dataset.subjects' ng-click="go('/incident/{{subject.incidentId}}')">
 			<img src="./images/{{subject.gender}}.png" class="pplicon" ng-class="{'faded':!subject.filterPass}"/>
 		</span>
 	</section>
@@ -66,8 +66,7 @@
 	<h2> Incident Reports</h2>
 	<p> Now showing {{dataset.filteredIncidentsCount}} / {{dataset.totalIncidents}} </p>
 		<div ng-repeat="incident in dataset.filteredIncidents" class="story" ng-click="go('/incident/{{incident.id}}')">
-			<h2>
-			<img ng-repeat="sub in incident.subjects" ng-src='./images/subjects/{{sub.imgName}}' err-hide="true"/>
-			{{incident.hed}}</h2>
+				<img ng-repeat="sub in incident.subjects" ng-src='./images/subjects/{{sub.imgName}}' err-hide="true"/>
+				<h2>{{incident.hed}}</h2>
 		</div>
 </section>
