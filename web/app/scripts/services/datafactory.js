@@ -16,13 +16,15 @@ angular.module('webApp')
       filteredSubjectsCount: 0,
       totalIncidents: 0,
       filteredIncidentsCount : 0,
-      filteredIncidents : []
+      filteredIncidents : [],
+      currIncident :null
     };
      var agencies = null;
      var filterRanges ={};
      var dataService = {};
      var dataReady = false;
      var currFilters ={};
+     var currIncidentId = null;
 
      $http.get("data/incidents.json").success(function (data, status, headers, config) {
         dataset.incidents = data;
@@ -114,6 +116,7 @@ angular.module('webApp')
       resetFilters();
       filterSubjects();
       filterIncidents();
+      setCurrIncident();
     }
 
     function filterSubjects(){
@@ -168,6 +171,15 @@ angular.module('webApp')
 
     }
 
+    function setCurrIncident(){
+       var incident = _.where(dataset.incidents, {'id':currIncidentId});
+       dataset.currIncident = null;
+       if(incident){
+        dataset.currIncident = incident[0];
+       }
+
+    }
+
      // Public members
      dataService.getDataset = function(){
       return dataset;
@@ -180,6 +192,12 @@ angular.module('webApp')
 
      dataService.getFilterRanges = function (){
        return filterRanges;
+     }
+
+     dataService.getIncident = function(id){
+      currIncidentId = id.toUpperCase();
+      setCurrIncident();
+      return dataset;
      }
 
      return dataService;

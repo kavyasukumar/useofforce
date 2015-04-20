@@ -5,7 +5,7 @@
   background-color:#F6F1ED;
   background-image: url('../images/Lineoffirelogo.png');
   width: 100%;
-  height: 90vh;
+  height: 50vh;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -135,11 +135,10 @@
   width: 25%;
   display: inline-block;
   min-width: 300px;
-  margin-top: 110px;
 }
 .sidebar img{
   margin: auto;
-  max-width: 200px;
+  width: 150px;
   display: block;
 }
 .mainbar{
@@ -148,10 +147,13 @@
 }
 h1.storyhed{
   line-height: 30px;
-  width: 100%;
+  font-size: 28px;
+  margin-left: 25%;
+  margin-right: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid coral;
+
 }
 
 select {
@@ -182,4 +184,37 @@ select {
 }
 .progress-bar{
   background-color: coral;
+}
+.main.prop .propvalue{
+  background: coral;
+  margin-right: 10px;
+  color: white;
+  padding: 3px;
+}
+.prop .proplabel{
+  font-weight: 100;
+  color:#333;
+}
+
+.prop.sub{
+  padding: 3px;
+  width: 150px;
+  display: block;
+  background: rgba(200,200,200,.3);
+  border: 1px solid #ddd;
+  margin: 3px auto;
+  text-align: center;
+}
+
+.propvalue.name{
+  color:coral;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  letter-spacing: 2px;
+}
+subject {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }

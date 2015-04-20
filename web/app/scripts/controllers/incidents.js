@@ -8,7 +8,11 @@
  * Controller of the webApp
  */
 angular.module('webApp')
-  .controller('IncidentsCtrl', function ($scope, $location, $routeParams, incidents) {
+  .controller('IncidentsCtrl', function ($scope, $location, $routeParams, dataFactory) {
   	var incidentId = $routeParams.incidentId;
-   	$scope.incident = incidents.getIncident(incidentId);
+   	$scope.incident = dataFactory.getIncident(incidentId);
+   	
+   	$scope.getDate = function(datestr){
+   		return new Date(datestr);
+   	}
   });

@@ -35,7 +35,8 @@ angular.module('webApp')
     }
 
     $scope.go = function ( path ) {
-        $location.path( path );
+        $location.search([]);
+        $location.path(path);
     };
 
     
