@@ -13,9 +13,10 @@ angular.module('webApp')
       incidents:null,
       subjects:null,
       totalSubjects: 0,
-      filteredSubject: 0,
+      filteredSubjectsCount: 0,
       totalIncidents: 0,
-      filteredIncidents : 0
+      filteredIncidentsCount : 0,
+      filteredIncidents : []
     };
      var agencies = null;
      var filterRanges ={};
@@ -112,6 +113,7 @@ angular.module('webApp')
       }
       resetFilters();
       filterSubjects();
+      filterIncidents();
     }
 
     function filterSubjects(){
@@ -153,7 +155,17 @@ angular.module('webApp')
           continue;
         }
       }
-      dataset.filteredSubject = _.where(dataset.subjects,{filterPass:true}).length;
+      dataset.filteredSubjectCount = _.where(dataset.subjects,{filterPass:true}).length;
+    }
+
+    function filterIncidents(){
+      //dataset.filteredIncidents = [];
+      var incidentIds = _.chain(dataset.subects).where({'filterPass':true}).pluck("incidentId").value();
+      dataset.filteredIncidents = _.filter(dataset.incidents, function(incident){
+        return _.contains(incidentIds,incident.id)
+      });
+      dataset.filteredIncidentsCount = incidentIds.length;
+
     }
 
      // Public members
