@@ -15,4 +15,21 @@ angular.module('webApp')
    	$scope.getDate = function(datestr){
    		return new Date(datestr);
    	}
+
+   	$scope.getNextIncident = function(){
+   		$scope.hasNext = false;
+   		var next = dataFactory.getNextIncident();
+   		if(next){
+   			$scope.hasNext = true;
+   		}
+   		return next;
+   	}
+   	$scope.getPrevIncident = function(){
+   		$scope.hasPrev = false;
+   		var prev = dataFactory.getPrevIncident();
+   		if(prev){
+   			$scope.hasPrev = true;
+   		}
+   		return prev;
+   	}
   });

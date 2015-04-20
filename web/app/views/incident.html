@@ -35,4 +35,12 @@
 		<span class="propvalue">{{incident.currIncident.city}}</span>
 	</p>
 	<p class="summary">{{incident.currIncident.summary}}</p>
+	<section id="btnarea">
+		<a id="prev" ng-show='hasPrev' class="storybtn" href="#/incident/{{getPrevIncident().id}}">
+			<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+		</a>
+		<a id="next" ng-show='hasNext' class="storybtn" href="#/incident/{{getNextIncident().id}}">
+			<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+		</a>
+	</section>
 </section>
