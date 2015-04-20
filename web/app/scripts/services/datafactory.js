@@ -125,35 +125,35 @@ angular.module('webApp')
       for(var i=0;i<dataset.subjects.length;i++){
         var pass = true;
         var d = dataset.subjects[i];
-        if(currFilters.gender!=defaultRangeVal && d.gender!=currFilters.gender){
+        if(currFilters.gender && currFilters.gender!=defaultRangeVal && d.gender!=currFilters.gender){
           dataset.subjects[i].filterPass = false;
           continue;
         }
-        if(currFilters.ethnicity!=defaultRangeVal && d.ethnicity!=currFilters.ethnicity){
+        if(currFilters.ethnicity && currFilters.ethnicity!=defaultRangeVal && d.ethnicity!=currFilters.ethnicity){
           dataset.subjects[i].filterPass = false;
           continue;
         }
-        if(currFilters.injuryLevel!=defaultRangeVal && d.injuryLevel!=currFilters.injuryLevel){
+        if(currFilters.injuryLevel && currFilters.injuryLevel!=defaultRangeVal && d.injuryLevel!=currFilters.injuryLevel){
           dataset.subjects[i].filterPass = false;
           continue;
         }
-        if(currFilters.shotAtPolice!=defaultRangeVal && d.shotAtPolice!=currFilters.shotAtPolice){
+        if(currFilters.shotAtPolice && currFilters.shotAtPolice!=defaultRangeVal && d.shotAtPolice!=currFilters.shotAtPolice){
           dataset.subjects[i].filterPass = false;
           continue;
         }
-        if(currFilters.incidentCity!=defaultRangeVal && d.incidentCity!=currFilters.incidentCity){
+        if(currFilters.incidentCity && currFilters.incidentCity!=defaultRangeVal && d.incidentCity!=currFilters.incidentCity){
           dataset.subjects[i].filterPass = false;
           continue;
         }
-        if(currFilters.year!=defaultRangeVal && new Date(d.date).getFullYear()!=currFilters.year){
+        if(currFilters.year && currFilters.year!=defaultRangeVal && new Date(d.date).getFullYear()!=currFilters.year){
           dataset.subjects[i].filterPass = false;
           continue;
         }
-        if(currFilters.agencies!=defaultRangeVal && !_.contains(d.agencies,currFilters.agencies)){
+        if(currFilters.agencies && currFilters.agencies!=defaultRangeVal && !_.contains(d.agencies,currFilters.agencies)){
           dataset.subjects[i].filterPass = false;
           continue;
         }
-        if(currFilters.weapons!=defaultRangeVal && !_.contains(d.weapons,currFilters.weapons)){
+        if(currFilters.weapons && currFilters.weapons!=defaultRangeVal && !_.contains(d.weapons,currFilters.weapons)){
           dataset.subjects[i].filterPass = false;
           continue;
         }
@@ -163,7 +163,7 @@ angular.module('webApp')
 
     function filterIncidents(){
       //dataset.filteredIncidents = [];
-      var incidentIds = _.chain(dataset.subects).where({'filterPass':true}).pluck("incidentId").value();
+      var incidentIds = _.chain(dataset.subjects).where({'filterPass':true}).pluck("incidentId").value();
       dataset.filteredIncidents = _.filter(dataset.incidents, function(incident){
         return _.contains(incidentIds,incident.id)
       });
@@ -198,6 +198,30 @@ angular.module('webApp')
       currIncidentId = id.toUpperCase();
       setCurrIncident();
       return dataset;
+     }
+
+     dataService.getNextIncident = function(){
+      if(!dataReady || !currIncidentId){
+        return;
+      }
+      return _.find(dataset.filteredIncidents, function(incident, index){ 
+        if(dataset.filteredIncidents[index-1]){
+        return dataset.filteredIncidents[index-1].id == currIncidentId;
+        }
+      return false;
+      });
+     }
+
+     dataService.getPrevIncident = function(){
+      if(!dataReady || !currIncidentId){
+        return;
+      }
+      return _.find(dataset.filteredIncidents, function(incident, index){ 
+        if(dataset.filteredIncidents[index+1]){
+        return dataset.filteredIncidents[index+1].id == currIncidentId;
+        }
+      return false;
+      });
      }
 
      return dataService;
