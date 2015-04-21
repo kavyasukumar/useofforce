@@ -33,6 +33,7 @@ angular.module('webApp')
 
     $scope.update = function(){
         $location.search(getNonDefaultSelections());
+        $('.progress-bar').width($scope.getBarWidth+'%');
     }
 
     $scope.getBarWidth = function(){

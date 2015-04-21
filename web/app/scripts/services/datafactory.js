@@ -106,7 +106,7 @@ angular.module('webApp')
       for(var i=0;i< dataset.subjects.length;i++){
           dataset.subjects[i].filterPass=true;
         }
-        dataset.subects = _.sortBy(dataset.subjects,function(d){ return d.sortOrder;});
+        dataset.subjects = _.sortBy(dataset.subjects,function(d){ return d.sortOrder;});
      }
 
      function filterData(){

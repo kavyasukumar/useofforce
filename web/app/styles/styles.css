@@ -100,7 +100,7 @@
   margin: 10px 0;
   border: 1px solid white;
   cursor: pointer;
-  
+
   min-height: 55px;
 }
 .story:hover{
@@ -241,10 +241,12 @@ a#prev, a#next, a#home{
 a#prev{
   left:0;
   top:0;
+  z-index:1000;
 }
 a#next{
   right:0;
   top:0;
+  z-index: 1000;
 }
 a#home{
   width: 100%;
@@ -252,6 +254,7 @@ a#home{
   display: inline-block;
   position: relative;
   margin:auto;
+  z-index: 0;
 
 }
 
@@ -358,7 +361,8 @@ a#prev::after, a#next::before{
 }
 @media only screen and (max-width: 480px) {
     .sidebar img{
-    width: 80px;
+    width: 60px;
+    margin-top: 3px;
   }
   .prop.sub{
     padding: 0;
@@ -367,4 +371,5 @@ a#prev::after, a#next::before{
   height: 20px;
   width: 15px;
 }
+
 }
