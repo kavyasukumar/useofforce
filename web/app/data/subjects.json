@@ -981,7 +981,7 @@
         "incidentId": "KL35",
         "date": "8/14/11",
         "location": "10101 Forest Hill Boulevard",
-        "incidentCity": "Wellington ",
+        "incidentCity": "Wellington",
         "imgName": "Haulotte-KL35.jpg",
         "sortOrder": 58
     },
@@ -1032,7 +1032,7 @@
         "incidentId": "KL37",
         "date": "4/24/11",
         "location": "South of Dixie Highway and Ocean Boulevard",
-        "incidentCity": "Lantana ",
+        "incidentCity": "Lantana",
         "imgName": "Pacifici-KL37.jpg",
         "sortOrder": 61
     },
@@ -1253,7 +1253,7 @@
         "incidentId": "KL46",
         "date": "8/26/10",
         "location": "1276 SW 18th terrace",
-        "incidentCity": "Okeechobee ",
+        "incidentCity": "Okeechobee",
         "imgName": "Carrillo-KL46.jpg",
         "sortOrder": 74
     },
@@ -1423,7 +1423,7 @@
         "incidentId": "KL51",
         "date": "3/23/10",
         "location": "191 Hibiscus Tree Drive",
-        "incidentCity": "Lantana ",
+        "incidentCity": "Lantana",
         "imgName": "Hunter-KL51.jpg",
         "sortOrder": 84
     },
@@ -1848,7 +1848,7 @@
         "incidentId": "KL6",
         "date": "1/12/09",
         "location": "Florida Turnpike mile marker 106, Palm Beach Gardens, FL",
-        "incidentCity": "Palm Beach Gardens ",
+        "incidentCity": "Palm Beach Gardens",
         "imgName": "Martinez-KL6.jpg",
         "sortOrder": 109
     },
@@ -2800,7 +2800,7 @@
         "incidentId": "LM118",
         "date": "8/7/06",
         "location": "3400 block of Lake Worth Road",
-        "incidentCity": "Palm springs",
+        "incidentCity": "Palm Springs",
         "imgName": "Pineda-LM118.jpg",
         "sortOrder": 165
     },
@@ -3412,7 +3412,7 @@
         "incidentId": "KL64",
         "date": "6/24/04",
         "location": "Tropic Boulevard and Devonshire  Drive",
-        "incidentCity": "Fort Pierce ",
+        "incidentCity": "Fort Pierce",
         "imgName": "Levy-KL64.jpg",
         "sortOrder": 201
     },
@@ -3565,7 +3565,7 @@
         "incidentId": "KL59",
         "date": "10/26/03",
         "location": "Martin Luther King Boulevard",
-        "incidentCity": "Stuart ",
+        "incidentCity": "Stuart",
         "imgName": "Tuhey-KL59.jpg",
         "sortOrder": 210
     },
@@ -3582,7 +3582,7 @@
         "incidentId": "KL65",
         "date": "10/10/03",
         "location": "1600 block of south US 1",
-        "incidentCity": "Fort Pierce ",
+        "incidentCity": "Fort Pierce",
         "imgName": "Tompkins-KL65.jpg",
         "sortOrder": 211
     },
