@@ -1,45 +1,71 @@
-<section id="cover">
-   <!--  <h1>Line of Fire</h1>
-    <p class="lead">A <a href="http://www.palmbeachpost.com" class="highlight">Palm Beach Post</a> investigation</p> -->
-</section>
-<section id="byline" class="container">
-	By <a href="http://www.palmbeachpost.com/staff/lawrence-mower/">Lawrence Mower</a>
-</section>
+
 <section id="introtext" class="container">
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p> 
+<h1>Police shootings: Deputies shielded by the badge</h1>
+  <p>In an <a href="http://www.mypalmbeachpost.com/policeshootings/">unrivaled look at police shootings</a>in Palm Beach County and the Treasure Coast since 2000, The Palm Beach Post and WPTV NewsChannel 5 detail more than 250 incidents of officers firing guns. The shootings killed 86 people and wounded 89. Almost all of the shootings were deemed to be just.</p>
+<p>Use the filters below to find cases by race of the victim, shooting location, police agency and more. Click on figures or on summaries for details of each case. What about the police in your town?</p>
+<p> Check <a href="http://www.mypalmbeachpost.com/interactive/law-enforcement-agency-profiles/">reports </a>on each agency here.</p> 
 </section>
-<section id="filterarea" class="container">
-	<select ng-model='selections.gender' ng-options="x as x for x in ranges.gender track by x" ng-change="update()">
-	</select>
-	<select ng-model='selections.ethnicity' ng-options="x as x for x in ranges.ethnicity track by x" ng-change="update()">
-	</select>
-	<select ng-model='selections.injuryLevel' ng-options="x as x for x in ranges.injuryLevel track by x" ng-change="update()">
-	</select>
-	<select ng-model='selections.shotAtPolice' ng-options="x as x for x in ranges.shotAtPolice track by x" ng-change="update()">
-	</select>
-	<select ng-model='selections.weapons' ng-options="x as x for x in ranges.weapons track by x" ng-change="update()">
-	</select>
-	<select ng-model='selections.year' ng-options="x as x for x in ranges.year track by x" ng-change="update()">
-	</select>
-	<select ng-model='selections.agencies' ng-options="x as x for x in ranges.agencies track by x" ng-change="update()">
-	</select>
-	<select ng-model='selections.incidentCity' ng-options="x as x for x in ranges.incidentCity track by x" ng-change="update()">
-	</select>
-</section>
-<section id="iconarea">
-	<span class="iconholder" ng-repeat='subject in subjects.data'>
-		<img src="/images/{{subject.gender}}.png" class="pplicon" ng-class="{'faded':!subject.filterPass}"/>
-	</span>
-</section>
-<section id="statusbar" class="container">
-	<div id="innerbar" style="width:{{100*subjects.data.filteredLength/subjects.data.length}}%"></div>
-	<p>{{subjects.data.filteredLength}} / {{subjects.data.length}}</p>
+<section id="subjectfilters">
+	<section id="filterarea" class="container">
+		<h2> Explore the data</h2>
+		<div class="row">
+			<span class="col-md-4 col-xs-12 col-xs-12">Gender : 
+				<select ng-model='selections.gender' ng-options="x as x for x in ranges.gender track by x" ng-change="update()">
+				</select>
+			</span>
+			<span class="col-md-4 col-xs-12">Ethnicity :
+				<select ng-model='selections.ethnicity' ng-options="x as x for x in ranges.ethnicity track by x" ng-change="update()">
+				</select>
+			</span>
+			<span class="col-md-4 col-xs-12">Injury level :
+				<select ng-model='selections.injuryLevel' ng-options="x as x for x in ranges.injuryLevel track by x" ng-change="update()">
+				</select>
+			</span>
+		</div>
+		<div class="row">
+			<span class="col-md-8 col-xs-12">Weapons :
+				<select ng-model='selections.weapons' ng-options="x as x for x in ranges.weapons track by x" ng-change="update()">
+				</select>
+			</span>
+			<span class="col-md-4 col-xs-12">Shot at Police? :
+				<select ng-model='selections.shotAtPolice' ng-options="x as x for x in ranges.shotAtPolice track by x" ng-change="update()">
+				</select>
+			</span>	
+		</div>	
+		<div class="row">
+			<span class="col-md-4 col-xs-12">Year of incident :
+				<select ng-model='selections.year' ng-options="x as x for x in ranges.year track by x" ng-change="update()">
+				</select>
+			</span>
+			<span class="col-md-8 col-xs-12">City :
+				<select ng-model='selections.incidentCity' ng-options="x as x for x in ranges.incidentCity track by x" ng-change="update()">
+				</select>
+			</span>
+			<span class="col-md-12">Police Agency involved :
+				<select ng-model='selections.agencies' ng-options="x as x for x in ranges.agencies track by x" ng-change="update()">
+				</select>
+			</span>
+		</div>
+	</section>
+	<section id="statusbar" class="container" ng-show='isIE'>
+		Now showing {{dataset.filteredSubjectsCount}} of {{dataset.totalSubjects}}</p>
+	</section>
+	<div class="progress container" ng-hide='isIE'>
+	  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{100*dataset.filteredSubjectsCount/dataset.totalSubjects}}%;">
+	  </div>
+	  <p>{{dataset.filteredSubjectsCount}} / {{dataset.totalSubjects}} </p>
+	</div>
+	<section id="iconarea">
+		<span class="iconholder" ng-repeat='subject in dataset.subjects' ng-click="go('/incident/{{subject.incidentId}}')">
+			<img src="./images/{{subject.gender}}.png" class="pplicon" ng-class="{'faded':!subject.filterPass}"/>
+		</span>
+	</section>
 </section>
 <section class="stories container">
-	<a ng-repeat="incident in incidents.filtereddata" href="#/incident/{{incident.id}}">
-		<div class="story" >
-			<img ng-repeat="img in incident.imgnames" ng-src='./images/subjects/{{img}}' err-hide="true">
-			<h2>{{incident.hed}}</h2>
+	<h2> Incident Reports</h2>
+	<p> Now showing {{dataset.filteredIncidentsCount}} / {{dataset.totalIncidents}} </p>
+		<div ng-repeat="incident in dataset.filteredIncidents" class="story" ng-click="go('/incident/{{incident.id}}')">
+				<img ng-repeat="sub in incident.subjects" ng-src='./images/subjects/{{sub.imgName}}' err-hide="true"/>
+				<h2>{{incident.hed}}</h2>
 		</div>
-	</a>
 </section>

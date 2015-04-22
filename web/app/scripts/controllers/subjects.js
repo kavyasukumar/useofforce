@@ -8,14 +8,16 @@
  * Controller of the webApp
  */
 angular.module('webApp')
-  .controller('SubjectsCtrl', function ($scope, $location, subjects, incidents) {
-    $scope.subjects = subjects.getList();
-    $scope.incidents = incidents.getList();
+  .controller('SubjectsCtrl', function ($scope, $location, dataFactory) {
+    $('#cover').height('50vh');
+    $scope.dataset = dataFactory.getDataset($scope.selections);
 
-    $scope.ranges = subjects.getRanges();
+    $scope.isIE = window.navigator.userAgent.indexOf("Trident")>0;
 
     $scope.selections={};
+
     var defaultval = "-All-";
+
     $scope.selections.gender=defaultval;
     $scope.selections.ethnicity = defaultval;
     $scope.selections.injuryLevel = defaultval;
@@ -25,15 +27,23 @@ angular.module('webApp')
     $scope.selections.agencies = defaultval;
     $scope.selections.incidentCity = defaultval;
     $scope.selections = _.extend($scope.selections,$location.search());
-
-    subjects.setCriteria($scope.selections);
+    
+    dataFactory.setFilters($scope.selections);
+    $scope.ranges = dataFactory.getFilterRanges();
+     if($scope.dataset && $scope.dataset.totalSubjects !=0)
+        {
+            $('#innerbar').width(100*$scope.dataset.filteredSubjectsCount/$scope.dataset.totalSubjects+'%');
+        }
 
 
     $scope.update = function(){
         $location.search(getNonDefaultSelections());
-        subjects.filterList($scope.selections);
-        incidents.filterList(_.where($scope.subjects.data,{'filterPass':true}));
     }
+
+    $scope.go = function ( path ) {
+        $location.search([]);
+        $location.path(path);
+    };
 
     
     function getNonDefaultSelections(){

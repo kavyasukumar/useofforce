@@ -1,7 +1,51 @@
+<h1 class="storyhed"> {{incident.currIncident.hed}}</h1>
 <section class="sidebar">
-	<img ng-repeat="img in incident.currentIncident.imgnames" ng-src='./images/subjects/{{img}}' err-hide="true">
+	<div class="subject" ng-repeat="sub in incident.currIncident.subjects">
+		<img ng-src='./images/subjects/{{sub.imgName}}' err-hide="true"/>
+		<section id="sidebarprops">
+			<p class="prop sub">
+				<span class="propvalue name">{{sub.firstName}} {{sub.middleName}} {{sub.lastName}}</span>
+			</p>
+			<p class="prop sub">
+				<span class="proplabel"> Gender:</span>
+				<span class="propvalue">{{sub.gender}}</span>
+			</p>
+			<p class="prop sub">
+				<span class="proplabel"> Ethnicity:</span>
+				<span class="propvalue">{{sub.ethnicity}}</span>
+			</p>
+			<p class="prop sub">
+				<span class="proplabel"> Injury:</span>
+				<span class="propvalue">{{sub.injuryLevel}}</span>
+			</p>
+		</section>
+	</div>
 </section>
-<section class="container mainbar">
-	<h1 class="storyhed"> {{incident.currentIncident.hed}}</h1>
-	<p>{{incident.currentIncident.summary}}</p>
+<section class="mainbar">
+	<p class="prop main">
+		<span class="proplabel"> Date:</span>
+	 	<span class="propvalue">{{getDate(incident.currIncident.date) | date: 'MMM. dd, yyyy'}}</span>
+	</p>
+	<p class="prop main">
+		<span class="proplabel"> Agencies involved: </span> 
+		<span class="propvalue" ng-repeat="agency in incident.currIncident.agencies">
+			{{agency}}
+		</span>
+	</p>
+	<p class="prop main">
+		<span class="proplabel"> City: </span> 
+		<span class="propvalue">{{incident.currIncident.city}}</span>
+	</p>
+	<p class="summary">{{incident.currIncident.summary}}</p>
+	<section id="btnarea">
+		<a id="prev" ng-show='hasPrev' class="storybtn" href="#/incident/{{getPrevIncident().id}}">
+			<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+		</a>
+		<a id="home" class="storybtn" href="#/">
+			<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+		</a>
+		<a id="next" ng-show='hasNext' class="storybtn" href="#/incident/{{getNextIncident().id}}">
+			<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+		</a>
+	</section>
 </section>

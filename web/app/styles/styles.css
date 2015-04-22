@@ -5,11 +5,10 @@
   background-color:#F6F1ED;
   background-image: url('../images/Lineoffirelogo.png');
   width: 100%;
-  height: 90vh;
+  height: 50vh;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 3%;
 }
 
 #cover h1, #cover p{
@@ -56,6 +55,7 @@
   width:30px;
   height: 40px;
   display: inline-block;
+  cursor: pointer;
 }
 
 #iconarea{
@@ -65,21 +65,19 @@
 .faded{
   opacity: .3;
   width: 20px;
- /*   -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;*/
 }
 #statusbar{
   height: 30px;
   width: 80%;
   margin: auto;
-  background-color:#ddd;
+  background-color:#C53B3B;
   position: relative;
   padding:0;
+  text-align: center;
+  padding-top: 4px;
 }
 #innerbar{
-  background-color: coral;
+  background-color: #C53B3B;
   height: 30px;
   display: inline-block;
 }
@@ -100,27 +98,34 @@
 }
 
 .story{
-  background-color: rgba(200,200,200,.15);
+  background-color: rgba(200,200,200,.4);
   margin: 10px 0;
-  padding: 5px;
-  padding-left: 15px;
   border: 1px solid white;
+  cursor: pointer;
+
+  min-height: 55px;
 }
 .story:hover{
-  border:1px solid coral;
+  border:1px solid #C53B3B;
 }
 .story *{
   display: inline-block;
 }
 .story h2{
-  font-size: 1.3em;
-  width: 80%;
+  font-size: 1.2em;
+  text-transform: none;
+  text-transform: initial;
+  margin: 0;
+    display: inline-block;
+  padding-top: 20px;
+  padding-left: 5px;
 }
 .story img{
-  min-width: 60px;
-  width: 8%;
-  height: auto;
+  width: auto;
+  height: 60px;
   padding-right: 20px;
+   -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 #credits{
   list-style: none;
@@ -135,22 +140,245 @@
 .sidebar{
   width: 25%;
   display: inline-block;
-  min-width: 300px;
-  margin-top: 110px;
 }
 .sidebar img{
   margin: auto;
-  max-width: 200px;
+  width: 150px;
   display: block;
 }
 .mainbar{
   display: inline-block;
   vertical-align: top;
+  width: 70%;
 }
 h1.storyhed{
   line-height: 30px;
-  width: 100%;
+  font-size: 28px;
+  margin-left: 25%;
+  margin-right: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid coral;
+  border-bottom: 1px solid #C53B3B;
+
+}
+h2{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+select {
+  margin: 10px;
+  color: #046380;
+  border:0;
+  text-align: center;
+}
+
+#filterarea{
+  margin-bottom: 40px;
+}
+
+#subjectfilters{
+  background-color: #F6F1ED;
+  padding-bottom: 40px;
+}
+.progress.container {
+  padding: 0;
+  position: relative;
+}
+.progress p{
+  text-align: right;
+  padding-right: 10px;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+}
+.progress-bar{
+  background-color: #C53B3B;
+}
+.main.prop .propvalue{
+  background: #C53B3B;
+  margin-right: 10px;
+  color: white;
+  padding: 3px;
+}
+.prop .proplabel{
+  font-weight: 100;
+  color:#333;
+}
+
+.prop.sub{
+  padding: 3px;
+  width: 150px;
+  display: block;
+  background: rgba(200,200,200,.3);
+  border: 1px solid #ddd;
+  margin: 3px auto;
+  text-align: center;
+}
+
+.propvalue.name{
+  color:#C53B3B;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  letter-spacing: 2px;
+}
+.subject {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.summary{
+  margin-top: 40px;
+}
+a.storybtn, a.storybtn:hover{
+  text-decoration: none;
+}
+a#prev, a#next, a#home{
+  font-size: 10px;
+  display: inline-block;
+  position: absolute;
+}
+a#prev{
+  left:0;
+  top:0;
+  z-index:1000;
+}
+a#next{
+  right:0;
+  top:0;
+  z-index: 1000;
+}
+a#home{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin:auto;
+  z-index: 0;
+
+}
+
+a#prev::after{
+  content: 'PREV';
+}
+a#next::before{
+  content: 'NEXT';
+}
+a#prev::after, a#next::before{
+  color: #C53B3B;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  padding-top: 2px;
+}
+#btnarea{
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+.glyphicon{
+  font-size: 3em;
+  vertical-align: middle;
+  color: #C53B3B;
+}
+.header, .navbar{
+  background-color: #333;
+  border:0;
+}
+.navbar-brand > img {
+  display: block;
+  width: 250px;
+}
+#lede{
+  background: #F6F1ED;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 3%;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+#introtext h1{
+  font-weight: 300;
+  font-size: 30px;
+  color: #C53B3B;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  h1.storyhed{
+    margin: initial;
+    width:95%;
+    margin: auto;
+    font-size: 1.4em;
+  }
+  .sidebar{
+    width:90%;
+    margin-top: 20px;
+    margin: auto;
+  }
+  .prop.sub{
+    width: 100%;
+  }
+  .sidebar img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #sidebarprops{
+    display: inline-block;
+    width: 70%;
+  }
+  .subject{
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
+  }
+  .mainbar{
+    display: block;
+  width: 75%;
+  margin: auto;
+  margin-top: 2%;
+  }
+  .prop.main .proplabel{
+
+  display: block;
+  }
+  #lede{
+    font-size: 1.2em;
+  }
+  .iconholder{
+    width: 20px;
+    height: 30px;
+  }
+  .pplicon{
+    width: 20px;
+    margin-bottom: 5px;
+  }
+  .pplicon.faded{
+    width: 15px;
+  }
+  .progress, #iconarea, #filterare{
+    width: 90%;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+    .sidebar img{
+    width: 60px;
+    margin-top: 3px;
+  }
+  .prop.sub{
+    padding: 0;
+  }
+  .iconholder {
+  height: 20px;
+  width: 15px;
+}
+
 }
