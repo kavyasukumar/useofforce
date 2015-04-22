@@ -9,9 +9,10 @@
  */
 angular.module('webApp')
   .controller('SubjectsCtrl', function ($scope, $location, dataFactory) {
-
     $('#cover').height('50vh');
     $scope.dataset = dataFactory.getDataset($scope.selections);
+
+    $scope.isIE = window.navigator.userAgent.indexOf("Trident")>0;
 
     $scope.selections={};
 
@@ -29,19 +30,14 @@ angular.module('webApp')
     
     dataFactory.setFilters($scope.selections);
     $scope.ranges = dataFactory.getFilterRanges();
+     if($scope.dataset && $scope.dataset.totalSubjects !=0)
+        {
+            $('#innerbar').width(100*$scope.dataset.filteredSubjectsCount/$scope.dataset.totalSubjects+'%');
+        }
 
 
     $scope.update = function(){
         $location.search(getNonDefaultSelections());
-        $('.progress-bar').width($scope.getBarWidth+'%');
-    }
-
-    $scope.getBarWidth = function(){
-        if($scope.dataset && $scope.dataset.totalSubjects != 0)
-        {
-            return 100*$scope.dataset.filteredSubjectsCount/$scope.dataset.totalSubjects;
-        }
-        return 0;
     }
 
     $scope.go = function ( path ) {

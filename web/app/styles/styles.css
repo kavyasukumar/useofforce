@@ -70,9 +70,11 @@
   height: 30px;
   width: 80%;
   margin: auto;
-  background-color:#ddd;
+  background-color:#C53B3B;
   position: relative;
   padding:0;
+  text-align: center;
+  padding-top: 4px;
 }
 #innerbar{
   background-color: #C53B3B;
@@ -299,6 +301,13 @@ a#prev::after, a#next::before{
   margin-bottom: 3%;
   letter-spacing: 2px;
   font-weight: 200;
+}
+
+#introtext h1{
+  font-weight: 300;
+  font-size: 30px;
+  color: #C53B3B;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px) {
