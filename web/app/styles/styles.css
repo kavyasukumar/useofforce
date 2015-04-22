@@ -71,10 +71,12 @@
   width: 80%;
   margin: auto;
   background-color:#C53B3B;
+  color:white;
   position: relative;
   padding:0;
   text-align: center;
   padding-top: 4px;
+  margin-bottom: 30px;
 }
 #innerbar{
   background-color: #C53B3B;
