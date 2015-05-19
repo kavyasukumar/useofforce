@@ -13,13 +13,7 @@ This project contains the data and presentation for [use of force](Http://TODO:A
 - Run ```./setup.sh```
 
 ### Frontend
-- Navigate to ```/web``` directory
-- Start a webserver.
-
- Example:
-    
-      python -m SimpleHTTPServer
-- In the browser navigate to [http://localhost:8000](http://localhost:8000)
+TKTKTK
 
 ## Assumptions
 - POSIX environment
