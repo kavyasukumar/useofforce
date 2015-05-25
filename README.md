@@ -2,7 +2,7 @@
 
 #### A Palm Beach Post investigation into police shootings in Florida
 
-This project contains the data and presentation for [use of force](Http://TODO:AddLinkHere) project.
+This project contains the data and presentation for [use of force](http://apps.mypalmbeachpost.com/lineoffire/#/) project.
 
 ## Setup
 
